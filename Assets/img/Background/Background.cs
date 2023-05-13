@@ -11,17 +11,10 @@ public class Background : MonoBehaviour
     void Awake()
     {
         rend = GetComponent<SpriteRenderer>();
-        //Debug.Log("" + idBackground);
-        //Debug.LogError("Error carga iamgen") ;
-        //Debug.LogWarning("Se cargo mal");
-        
-
     }
     void Start()
     {
         CambiarFondo();
-        GameManager.instance.CheckGameManager();
-        GameManager.instance.ChangeLifePlayer(-30);
     }
     
     public void CambiarFondo()
@@ -35,6 +28,24 @@ public class Background : MonoBehaviour
     }
     public void setIdBackground(int a)
     {
-        idBackground = a;
+        if(a < fondo.Length)
+            idBackground = a;
+    }
+    public int cantBackgrounds()
+    {
+        return fondo.Length;
+    }
+
+    public void ChangeColor(string colorName)
+    {
+        switch (colorName)
+        {
+            case "yellow":
+                rend.color = Color.yellow;          
+                break;
+            default:
+                Debug.Log("Color no encontrado");
+                break;
+        }
     }
 }

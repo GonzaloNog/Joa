@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public Personaje player;
+    public Background fondo;
+    public UIManager UI;
 
     private void Awake()
     {
@@ -26,5 +28,10 @@ public class GameManager : MonoBehaviour
     public void ChangeLifePlayer(float num)
     {
         player.ChangeVida(num);
+    }
+
+    public Background GetBackground()
+    {
+        return fondo;
     }
 }
