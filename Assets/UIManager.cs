@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
 
     public void changeColor(string colorName)
     {
-
+        GameManager.instance.GetBackground().ChangeColor(colorName);
     }
     public void ChangeVisionMenu()
     {
