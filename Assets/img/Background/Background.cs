@@ -41,7 +41,13 @@ public class Background : MonoBehaviour
         switch (colorName)
         {
             case "yellow":
-                rend.color = Color.yellow;          
+                rend.color = Color.yellow;
+                break;
+            case "blue":
+                rend.color = Color.blue;
+                break;
+            case "red":
+                rend.color = Color.red;
                 break;
             default:
                 Debug.Log("Color no encontrado");
