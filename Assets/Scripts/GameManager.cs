@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public Personaje player;
-
+    public Enemigo enemigo;
     public Background fondo;
     public UIManager UI;
 
@@ -38,5 +38,9 @@ public class GameManager : MonoBehaviour
     public Personaje GetPlayer()
     {
         return player;
+    }
+    public Enemigo GetEnemigo()
+    {
+        return enemigo;
     }
 }

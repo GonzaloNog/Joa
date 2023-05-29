@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Personaje : MonoBehaviour
@@ -82,6 +83,30 @@ public class Personaje : MonoBehaviour
                     Debug.Log("nueva vida maxima: " + vidaMaxima);
                     break;
             }
+            switch (estadistica)
+            {
+                case "defensa":
+                    defensa = defensa + (cantidad * 10);
+                    break;
+            }
+            switch (estadistica)
+            {
+                case "inteligencia":
+                    inteligencia = inteligencia + (cantidad* 10);
+                    break;
+            }
+            switch (estadistica)
+            {
+                case "fuerza":
+                    fuerza = fuerza + (cantidad * 10);
+                    break;
+            }
+            switch (estadistica)
+            {
+                case "speed":
+                    speed = speed + (cantidad * 10);
+                    break;
+            }
         }
         else
         {
@@ -89,11 +114,11 @@ public class Personaje : MonoBehaviour
         }
     }
 
-    public float NormalAtack()
+    public float NormalAttack()
     {
         return fuerza + fuerzaBuff + fuerzaEquip;
     }
-    public float MagicAtack()
+    public float MagicAttack()
     {
         return inteligencia + inteligenciaBuff + inteligenciaEquip;
     }
