@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
     public Enemigo enemigo;
     public Background fondo;
     public UIManager UI;
+    public Combate comb;
 
+    private int level = 0;
     private void Awake()
     {
         if (instance == null)
@@ -42,5 +44,17 @@ public class GameManager : MonoBehaviour
     public Enemigo GetEnemigo()
     {
         return enemigo;
+    }
+    public Combate GetCombate()
+    {
+        return comb;
+    }
+    public void NextLevel()
+    {
+        level++;
+    }
+    public void ChangeVidaPLayer()
+    {
+        UI.UpdateVidaUI();
     }
 }

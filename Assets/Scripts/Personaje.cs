@@ -39,10 +39,15 @@ public class Personaje : MonoBehaviour
     {
         vidaActual = vidaMaxima;
     }
+    private void Start()
+    {
+        GameManager.instance.ChangeVidaPLayer();
+    }
 
     public bool ChangeVida(float _changeVida)
     {
         vidaActual = vidaActual + _changeVida;
+        GameManager.instance.ChangeVidaPLayer();
         Debug.Log(vidaActual);
         if (vidaActual > vidaMaxima)
         {
@@ -80,31 +85,26 @@ public class Personaje : MonoBehaviour
             {
                 case "vidaMaxima":
                     vidaMaxima = vidaMaxima + (cantidad * 10);
+                    vidaActual =  vidaActual + (cantidad * 10);
+                    if (vidaActual > vidaMaxima)
+                        vidaActual = vidaMaxima;
+                    GameManager.instance.ChangeVidaPLayer();
                     Debug.Log("nueva vida maxima: " + vidaMaxima);
                     break;
-            }
-            switch (estadistica)
-            {
                 case "defensa":
                     defensa = defensa + (cantidad * 10);
                     break;
-            }
-            switch (estadistica)
-            {
                 case "inteligencia":
-                    inteligencia = inteligencia + (cantidad* 10);
+                    inteligencia = inteligencia + (cantidad * 10);
                     break;
-            }
-            switch (estadistica)
-            {
                 case "fuerza":
                     fuerza = fuerza + (cantidad * 10);
                     break;
-            }
-            switch (estadistica)
-            {
                 case "speed":
                     speed = speed + (cantidad * 10);
+                    break;
+                default:
+                    Debug.Log("Estadistica no encontrada");
                     break;
             }
         }
@@ -121,5 +121,9 @@ public class Personaje : MonoBehaviour
     public float MagicAttack()
     {
         return inteligencia + inteligenciaBuff + inteligenciaEquip;
+    }
+    public float GetVidaActual()
+    {
+        return vidaActual;
     }
 }

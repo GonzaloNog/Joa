@@ -5,69 +5,67 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    public int vidaEne = 0;
-    public int defensaEne = 0;
-    public int inteligenciaEne = 0;
-    public int fuerzaEne = 0;
-    public int expEne = 0;
+    public string enemigo;
 
+    private float vidaEne = 0;
+    private float defensaEne = 0;
+    private float inteligenciaEne = 0;
+    private float fuerzaEne = 0;
+    private float expEne = 0;
+    private float vidaActual = 0;
+
+    private void Start()
+    {
+        EstadisticasEnem(enemigo);
+    }
     public void EstadisticasEnem(string enemigo)
     {
         switch (enemigo)
         {
             case "duende":
-                {
-                    int vidaEne = 100;
-                    int defensaEne = 10;
-                    int inteligenciaEne = 20;
-                    int fuerzaEne = 25;
-                    int expEne = 50;
-
+                    vidaEne = 100;
+                    defensaEne = 10;
+                    inteligenciaEne = 20;
+                    fuerzaEne = 25;
+                    expEne = 50;
                     break;
-                }
             case "elfoOscuro":
-                {
-                    int vidaEne = 200;
-                    int defensaEne = 15;
-                    int inteligenciaEne = 100;
-                    int fuerzaEne = 50;
-                    int expEne = 100;
-
+                    vidaEne = 200;
+                    defensaEne = 15;
+                    inteligenciaEne = 100;
+                    fuerzaEne = 50;
+                    expEne = 100;
                     break;
-                }
             case "minotauro":
-                {
-                    int vidaEne = 300;
-                    int defensaEne = 23;
-                    int inteligenciaEne = 50;
-                    int fuerzaEne = 75;
-                    int expEne = 150;
-
+                    vidaEne = 300;
+                    defensaEne = 23;
+                    inteligenciaEne = 50;
+                    fuerzaEne = 75;
+                    expEne = 150;
                     break;
-                }
             case "gargola":
-                {
-                    int vidaEne = 400;
-                    int defensaEne = 35;
-                    int inteligenciaEne = 10;
-                    int fuerzaEne = 100;
-                    int expEne = 200;
-
+                    vidaEne = 400;
+                    defensaEne = 35;
+                    inteligenciaEne = 10;
+                    fuerzaEne = 100;
+                    expEne = 200;
                     break;
-                }
             default:
-                {
                     Debug.Log("no se encuentra el enemigo");
-                    break;
-                }
+                break;
         }
+        vidaActual = vidaEne;
     }
-    public int NormalAttackEnem()
+    public float NormalAttackEnem()
     {
         return fuerzaEne;
     }
-    public int MagicAttackEnem()
+    public float MagicAttackEnem()
     {
         return inteligenciaEne;
+    }
+    public void restartEnemi(string nuevoEnemigo)
+    {
+        EstadisticasEnem(nuevoEnemigo);
     }
 }

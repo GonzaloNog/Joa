@@ -9,12 +9,12 @@ public class Test : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             Debug.Log("Tecla A- UsePoints");
-            GameManager.instance.GetPlayer().UsePoints("vidaMaxima",5);
+            GameManager.instance.GetCombate().newCombat();
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
             Debug.Log("Tecla S- GetPlayer.NormalAttack");
-            GameManager.instance.GetPlayer().NormalAttack();
+            GameManager.instance.GetPlayer().ChangeVida(-10);
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
