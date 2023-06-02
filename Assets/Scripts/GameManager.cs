@@ -57,4 +57,8 @@ public class GameManager : MonoBehaviour
     {
         UI.UpdateVidaUI();
     }
+    public void ChangeVidaEnemigo()
+    {
+        UI.UpdateVidaEnemigo();
+    }
 }

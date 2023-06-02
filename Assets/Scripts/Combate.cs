@@ -10,19 +10,20 @@ public class Combate : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    
-    void Update()
-    {
-        if(inCombat)
-        {
-
-        }
-    }
-
     public void newCombat()
     {
-        GameManager.instance.GetEnemigo().restartEnemi("duende");
         inCombat = true;
+        GameManager.instance.GetEnemigo().restartEnemi("elfoOscuro");
         this.gameObject.SetActive(true);
+    }
+
+    public bool GetinCombat()
+    {
+        return inCombat;
+    }
+
+    public void newAtack(string atack)
+    {
+
     }
 }
