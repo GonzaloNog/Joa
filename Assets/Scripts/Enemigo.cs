@@ -67,7 +67,7 @@ public class Enemigo : MonoBehaviour
     {
         vidaActual = vidaActual + _changeVida;
         GameManager.instance.ChangeVidaEnemigo();
-        Debug.Log(vidaActual);
+        Debug.Log("vida actual enemigo:"+vidaActual);
         if (vidaActual > vidaEne)
         {
             vidaActual = vidaEne;

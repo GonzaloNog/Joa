@@ -7,9 +7,11 @@ public class Test : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.A))
+
         {
-            Debug.Log("Tecla A- UsePoints");
-            GameManager.instance.GetCombate().newCombat();
+            Debug.Log("Tecla A");
+            GameManager.instance.MostrarCombate();
+
         }
         if (Input.GetKeyDown(KeyCode.S))
         {

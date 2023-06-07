@@ -10,6 +10,18 @@ public class UIManager : MonoBehaviour
     public Slider vida;
     public Slider vidaEnemigo;
     public TextMeshProUGUI enemiName;
+    public GameObject itemsSubMenu;
+    public GameObject combate;
+
+    private void Start()
+    {
+        combate.SetActive(false);
+        itemsSubMenu.SetActive(false);
+    }
+    public void ActivarCombate()
+    { 
+        combate.SetActive(!combate.activeSelf); 
+    }
     public void ChangeBackgroundRandom()
     {
         int a = Random.Range(0, GameManager.instance.GetBackground().cantBackgrounds());
@@ -20,6 +32,15 @@ public class UIManager : MonoBehaviour
     public void changeColor(string colorName)
     {
         GameManager.instance.GetBackground().ChangeColor(colorName);
+    }
+    public void AtaqueUI(string attack)
+    {
+        GameManager.instance.GetCombate().newAtack(attack);
+        Debug.Log("UIManager AtaqueUI: " + attack);
+    }
+    public void changeVisionItems()
+    {
+        itemsSubMenu.SetActive(!itemsSubMenu.activeSelf);
     }
     public void ChangeVisionMenu()
     {

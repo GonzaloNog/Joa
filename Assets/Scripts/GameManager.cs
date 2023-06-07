@@ -32,6 +32,10 @@ public class GameManager : MonoBehaviour
     {
         player.ChangeVida(num);
     }
+    public void ChangeLifeEne(float num)
+    {
+        enemigo.ChangeVida(num);
+    }
 
     public Background GetBackground()
     {
@@ -61,4 +65,9 @@ public class GameManager : MonoBehaviour
     {
         UI.UpdateVidaEnemigo();
     }
+    public void MostrarCombate()
+    {
+        UI.ActivarCombate();
+    }
+
 }

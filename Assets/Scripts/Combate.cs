@@ -22,8 +22,20 @@ public class Combate : MonoBehaviour
         return inCombat;
     }
 
-    public void newAtack(string atack)
+    public void newAtack(string attack)
     {
-
+        switch (attack)
+        {
+            case "ataqueNormal":
+                float daño_f = (GameManager.instance.GetPlayer().NormalAttack() * -1);
+                GameManager.instance.GetEnemigo().ChangeVida(daño_f);
+                Debug.Log("Daño Fis Jug:" + daño_f);
+            break;
+            case "ataqueMagico":
+                float daño_m = (GameManager.instance.GetPlayer().MagicAttack() * -1);
+                GameManager.instance.GetEnemigo().ChangeVida(daño_m);
+                Debug.Log("Daño Mag Jug:" + daño_m);
+                break;
+        }
     }
 }
