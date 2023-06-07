@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -12,15 +13,15 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI enemiName;
     public GameObject itemsSubMenu;
     public GameObject combate;
+    public GameObject endGame;
 
     private void Start()
     {
-        combate.SetActive(false);
         itemsSubMenu.SetActive(false);
     }
-    public void ActivarCombate()
-    { 
-        combate.SetActive(!combate.activeSelf); 
+    public void ActivarCombate(bool com)
+    {
+        combate.SetActive(com);
     }
     public void ChangeBackgroundRandom()
     {
@@ -61,5 +62,13 @@ public class UIManager : MonoBehaviour
             vidaEnemigo.value = GameManager.instance.GetEnemigo().EnemigoVidaActual();
             enemiName.text = GameManager.instance.GetEnemigo().nameEne;
         }
+    }
+    public void goMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
+    public void SetEndGame(bool game)
+    {
+        endGame.SetActive(game);
     }
 }

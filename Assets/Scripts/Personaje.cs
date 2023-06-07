@@ -66,7 +66,7 @@ public class Personaje : MonoBehaviour
     public void ChangeExp(int _exp)
     {
         exp += _exp;
-        Debug.Log(exp);
+        Debug.Log("nueva exp: " + exp);
         if (exp >= nextLevelExp)
         {
             level++;

@@ -11,7 +11,7 @@ public class Enemigo : MonoBehaviour
     public float defensaEne = 0;
     public float inteligenciaEne = 0;
     public float fuerzaEne = 0;
-    public float expEne = 0;
+    public int expEne = 0;
     public string nameEne = "null";
     private float vidaActual = 0;
 

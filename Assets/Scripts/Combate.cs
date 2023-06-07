@@ -14,7 +14,7 @@ public class Combate : MonoBehaviour
     {
         inCombat = true;
         GameManager.instance.GetEnemigo().restartEnemi("elfoOscuro");
-        this.gameObject.SetActive(true);
+        GameManager.instance.MostrarCombate(true);
     }
 
     public bool GetinCombat()
@@ -27,15 +27,55 @@ public class Combate : MonoBehaviour
         switch (attack)
         {
             case "ataqueNormal":
-                float daño_f = (GameManager.instance.GetPlayer().NormalAttack() * -1);
-                GameManager.instance.GetEnemigo().ChangeVida(daño_f);
+                float daño_f = GameManager.instance.GetPlayer().NormalAttack();
+                GameManager.instance.GetEnemigo().ChangeVida(-daño_f);
                 Debug.Log("Daño Fis Jug:" + daño_f);
             break;
             case "ataqueMagico":
-                float daño_m = (GameManager.instance.GetPlayer().MagicAttack() * -1);
-                GameManager.instance.GetEnemigo().ChangeVida(daño_m);
+                float daño_m = GameManager.instance.GetPlayer().MagicAttack();
+                GameManager.instance.GetEnemigo().ChangeVida(-daño_m);
                 Debug.Log("Daño Mag Jug:" + daño_m);
+            break;
+        }
+        if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
+            newEnemiAtack();
+        else
+            endCombat(true);
+    }
+    public void newEnemiAtack()
+    {
+       int a = Random.Range(0,2);
+       switch(a)
+        {
+            case 0:
+                float daño_f = GameManager.instance.GetEnemigo().NormalAttackEnem();
+                GameManager.instance.GetPlayer().ChangeVida(-daño_f);
+                Debug.Log("Daño Fis Ene: " + daño_f);
                 break;
+            case 1:
+                float daño_m = GameManager.instance.GetEnemigo().MagicAttackEnem();
+                GameManager.instance.GetPlayer().ChangeVida(-daño_m);
+                Debug.Log("Daño Mag Ene: " + daño_m);
+                break;
+            case 2:
+                Debug.Log("ERROR RANDOM MUY LARGO");
+                break; 
+        }
+        Debug.Log("VIDA: " + GameManager.instance.GetPlayer().GetVidaActual());
+        if (GameManager.instance.GetPlayer().GetVidaActual() <= 0)
+            endCombat(false);
+    }
+    public void endCombat(bool win)
+    {
+        if(win)
+        {
+            GameManager.instance.GetPlayer().ChangeExp(GameManager.instance.GetEnemigo().expEne);
+            GameManager.instance.MostrarCombate(false);
+        }
+        else
+        {
+            GameManager.instance.MostrarCombate(false);
+            GameManager.instance.EndGame(true);
         }
     }
 }

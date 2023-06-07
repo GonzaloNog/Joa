@@ -65,9 +65,13 @@ public class GameManager : MonoBehaviour
     {
         UI.UpdateVidaEnemigo();
     }
-    public void MostrarCombate()
+    public void MostrarCombate(bool com)
     {
-        UI.ActivarCombate();
+        UI.ActivarCombate(com);
+    }
+    public void EndGame(bool com)
+    {
+        UI.SetEndGame(com);
     }
 
 }
