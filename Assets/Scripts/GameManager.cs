@@ -10,7 +10,10 @@ public class GameManager : MonoBehaviour
     public Background fondo;
     public UIManager UI;
     public Combate comb;
-    public int nivelActual = 0;
+    public int nivelActual = 1;
+    public bool changelevel = false;
+    public int finishLevel = 0;
+    private bool mitadDeCamino = false;
 
     private int level = 0;
     private void Awake()
@@ -74,5 +77,27 @@ public class GameManager : MonoBehaviour
     {
         UI.SetEndGame(com);
     }
+    public void NewLevel()
+    {
+        if (nivelActual == finishLevel)
+        {
+            mitadDeCamino = true;
+        }
+        if (nivelActual == 1 && mitadDeCamino)
+            WinGame();
+        else if (changelevel)
+        {
+            UI.ChangeBackgroundRandom();
+            if (!mitadDeCamino)
+                nivelActual++;
+            else
+                nivelActual--;
+            changelevel = false;
+            comb.newCombat();
+        }
+    }
+    public void WinGame()
+    {
 
+    }
 }

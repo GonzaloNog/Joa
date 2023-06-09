@@ -14,6 +14,7 @@ public class Enemigo : MonoBehaviour
     public int expEne = 0;
     public string nameEne = "null";
     private float vidaActual = 0;
+    private int enemigoID = 0;
 
     private bool live = false;
     private void Start()
@@ -31,6 +32,7 @@ public class Enemigo : MonoBehaviour
                     fuerzaEne = 25;
                     expEne = 50;
                     nameEne = "duende";
+                    enemigoID = 0;
                 break;
             case "elfoOscuro":
                     vidaEne = 200;
@@ -39,6 +41,7 @@ public class Enemigo : MonoBehaviour
                     fuerzaEne = 50;
                     expEne = 100;
                     nameEne = "Elfo Oscuro";
+                    enemigoID = 1;
                 break;
             case "minotauro":
                     vidaEne = 300;

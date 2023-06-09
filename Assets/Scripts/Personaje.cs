@@ -6,10 +6,10 @@ using UnityEngine;
 public class Personaje : MonoBehaviour
 {
     //Estadisticas
-    public float vidaMaxima = 100;
+    public float vidaMaxima = 300;
     public float defensa = 90;
-    public float inteligencia = 80;
-    public float fuerza = 70;
+    public float inteligencia = 220;
+    public float fuerza = 170;
     public float speed = 20;
     public bool live = true;
 

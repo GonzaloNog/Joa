@@ -2518,7 +2518,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 749620938}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ChangeBackgroundRandom
+        m_MethodName: NewLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3130,7 +3130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'CambiarFondo
+  m_text: 'NextLevel
 
 '
   m_isRightToLeft: 0
@@ -3707,6 +3707,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d99fc035fe3356544a0ca63cf93204cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemigos:
+  - enemigos:
+    - duende
+    - minotauro
+  - enemigos:
+    - casa
+    - pato
+    - perro
+    - perro
+    - perro
+  - enemigos:
+    - casa
+    - pato
+    - perro
+    - perro
+    - perro
+  - enemigos:
+    - casa
+    - pato
+    - perro
+    - perro
+    - perro
 --- !u!1 &1687723025
 GameObject:
   m_ObjectHideFlags: 0
@@ -4386,6 +4408,8 @@ MonoBehaviour:
   UI: {fileID: 749620938}
   comb: {fileID: 1685847524}
   nivelActual: 0
+  changelevel: 0
+  finishLevel: 0
 --- !u!4 &2000041955
 Transform:
   m_ObjectHideFlags: 0

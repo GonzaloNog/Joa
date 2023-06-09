@@ -71,4 +71,8 @@ public class UIManager : MonoBehaviour
     {
         endGame.SetActive(game);
     }
+    public void NewLevel()
+    {
+        GameManager.instance.NewLevel();
+    }
 }

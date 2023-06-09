@@ -13,8 +13,7 @@ public class Test : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            Debug.Log("Tecla S- GetPlayer.NormalAttack");
-            GameManager.instance.GetEnemigo().ChangeVida(-10);
+            Debug.Log("NUEVO ENEMIGO: " + GameManager.instance.GetCombate().GetNewEnemy());
         }
         if (Input.GetKeyDown(KeyCode.D))
         {

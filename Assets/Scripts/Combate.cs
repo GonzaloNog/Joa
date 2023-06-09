@@ -2,24 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Combate : MonoBehaviour
 {
-    private bool inCombat = false;
-    public Dificultad[] enemigos;
+    [System.Serializable]
     public struct Dificultad
     {
-        public bool duende;
-        public bool elfo;
+        public string[] enemigos;
     }
+    private bool inCombat = false;
+    public Dificultad[] enemigos;
+
     void Start()
     {
         this.gameObject.SetActive(false);
+        GameManager.instance.finishLevel = enemigos.Length + 1;
     }
 
     public void newCombat()
     {
         inCombat = true;
-        GameManager.instance.GetEnemigo().restartEnemi("elfoOscuro");
+        GameManager.instance.GetEnemigo().restartEnemi(GetNewEnemy());
         GameManager.instance.MostrarCombate(true);
     }
 
@@ -75,6 +78,7 @@ public class Combate : MonoBehaviour
     {
         if(win)
         {
+            GameManager.instance.changelevel = true;
             GameManager.instance.GetPlayer().ChangeExp(GameManager.instance.GetEnemigo().expEne);
             GameManager.instance.MostrarCombate(false);
         }
@@ -83,5 +87,10 @@ public class Combate : MonoBehaviour
             GameManager.instance.MostrarCombate(false);
             GameManager.instance.EndGame(true);
         }
+    }
+    public string GetNewEnemy()
+    {
+        int a = Random.Range(0, enemigos[GameManager.instance.nivelActual].enemigos.Length);
+        return enemigos[GameManager.instance.nivelActual].enemigos[a];
     }
 }
