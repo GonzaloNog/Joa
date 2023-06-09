@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class Combate : MonoBehaviour
 {
-    private bool inCombat = false;   
+    private bool inCombat = false;
+    public Dificultad[] enemigos;
+    public struct Dificultad
+    {
+        public bool duende;
+        public bool elfo;
+    }
     void Start()
     {
         this.gameObject.SetActive(false);

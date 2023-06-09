@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public Background fondo;
     public UIManager UI;
     public Combate comb;
+    public int nivelActual = 0;
 
     private int level = 0;
     private void Awake()
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
         else
             Destroy(this);
 
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
     }
 
     public void CheckGameManager()
