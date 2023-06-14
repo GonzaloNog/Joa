@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    public string enemigo;
-
+    public EnemiAnim anim;
     public float vidaEne = 0;
     public float defensaEne = 0;
     public float inteligenciaEne = 0;
@@ -14,13 +13,10 @@ public class Enemigo : MonoBehaviour
     public int expEne = 0;
     public string nameEne = "null";
     private float vidaActual = 0;
-    private int enemigoID = 0;
 
+    private int enemigoID = 0;
     private bool live = false;
-    private void Start()
-    {
-        EstadisticasEnem(enemigo);
-    }
+
     public void EstadisticasEnem(string enemigo)
     {
         switch (enemigo)
@@ -31,7 +27,6 @@ public class Enemigo : MonoBehaviour
                 inteligenciaEne = 5;
                 fuerzaEne = 10;
                 expEne = 50;
-                speeed = 10;
                 nameEne = "slime";
                 enemigoID = 0;
                 break;
@@ -129,6 +124,7 @@ public class Enemigo : MonoBehaviour
         else if (vidaActual <= 0)
         {
             live = false;
+            UpdateAnim();
             Debug.Log("Enemigo Muere");
             return false;
         }
@@ -151,5 +147,9 @@ public class Enemigo : MonoBehaviour
     public float EnemigoVidaActual()
     {
         return vidaActual;
+    }
+    public void UpdateAnim()
+    {
+        anim.UpdateAnim(live, enemigoID);
     }
 }

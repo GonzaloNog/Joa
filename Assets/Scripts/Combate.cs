@@ -24,6 +24,7 @@ public class Combate : MonoBehaviour
         inCombat = true;
         GameManager.instance.GetEnemigo().restartEnemi(GetNewEnemy());
         GameManager.instance.MostrarCombate(true);
+        GameManager.instance.GetEnemigo().UpdateAnim();
     }
 
     public bool GetinCombat()

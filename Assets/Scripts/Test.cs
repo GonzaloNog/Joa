@@ -23,7 +23,7 @@ public class Test : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             Debug.Log("Tecla Q- GetEnemigo.NormalAttackEnem");
-            GameManager.instance.GetEnemigo().NormalAttackEnem();
+            GameManager.instance.GetEnemigo().UpdateAnim();
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
