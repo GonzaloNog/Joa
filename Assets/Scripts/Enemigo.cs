@@ -25,40 +25,90 @@ public class Enemigo : MonoBehaviour
     {
         switch (enemigo)
         {
-            case "duende":
-                    vidaEne = 100;
-                    defensaEne = 10;
-                    inteligenciaEne = 20;
-                    fuerzaEne = 25;
-                    expEne = 50;
-                    nameEne = "duende";
-                    enemigoID = 0;
+            case "slime":
+                vidaEne = 10;
+                defensaEne = 5;
+                inteligenciaEne = 5;
+                fuerzaEne = 10;
+                expEne = 50;
+                speeed = 10;
+                nameEne = "slime";
+                enemigoID = 0;
                 break;
-            case "elfoOscuro":
-                    vidaEne = 200;
-                    defensaEne = 15;
-                    inteligenciaEne = 100;
-                    fuerzaEne = 50;
-                    expEne = 100;
-                    nameEne = "Elfo Oscuro";
-                    enemigoID = 1;
+            case "rat":
+                vidaEne = 15;
+                defensaEne = 7;
+                inteligenciaEne = 7;
+                fuerzaEne = 20;
+                expEne = 100;
+                nameEne = "rat";
+                enemigoID = 1;
                 break;
-            case "minotauro":
-                    vidaEne = 300;
-                    defensaEne = 23;
-                    inteligenciaEne = 50;
-                    fuerzaEne = 75;
-                    expEne = 150;
-                    nameEne = "minotauro";
+            case "worm":
+                vidaEne = 22;
+                defensaEne = 11;
+                inteligenciaEne = 13;
+                fuerzaEne = 25;
+                expEne = 150;
+                nameEne = "worm";
+                enemigoID = 2;
                 break;
-            case "gargola":
-                    vidaEne = 400;
-                    defensaEne = 35;
-                    inteligenciaEne = 10;
-                    fuerzaEne = 100;
-                    expEne = 200;
-                    nameEne = "gargola";
+            case "boneworm":
+                vidaEne = 34;
+                defensaEne = 16;
+                inteligenciaEne = 15;
+                fuerzaEne = 30;
+                expEne = 200;
+                nameEne = "boneworm";
+                enemigoID = 3;
                 break;
+            case "wolf":
+                vidaEne = 50;
+                defensaEne = 20;
+                inteligenciaEne = 20;
+                fuerzaEne = 35;
+                expEne = 250;
+                nameEne = "wolf";
+                enemigoID = 4;
+                break;
+            case "spider":
+                vidaEne = 75;
+                defensaEne = 26;
+                inteligenciaEne = 23;
+                fuerzaEne = 40;
+                expEne = 300;
+                nameEne = "spider";
+                enemigoID = 5;
+                break;
+            case "scorpion":
+                vidaEne = 113;
+                defensaEne = 33;
+                inteligenciaEne = 27;
+                fuerzaEne = 45;
+                expEne = 350;
+                nameEne = "scorpion";
+                enemigoID = 6;
+                break;
+            case "cerberus":
+                vidaEne = 170;
+                defensaEne = 56;
+                inteligenciaEne = 40;
+                fuerzaEne = 25;
+                expEne = 400;
+                nameEne = "cerberus";
+                enemigoID = 7;
+                break;
+            case "boss":
+                vidaEne = 256;
+                defensaEne = 57;
+                inteligenciaEne = 100;
+                fuerzaEne = 20;
+                expEne = 1000;
+                nameEne = "boss";
+                enemigoID = 8;
+                break;
+
+
             default:
                     Debug.Log("no se encuentra el enemigo");
                 break;

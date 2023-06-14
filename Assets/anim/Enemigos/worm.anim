@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: boneworm
+  m_Name: worm
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -23,7 +23,7 @@ AnimationClip:
       value: {fileID: -81414030, guid: c33ef46f5235a1241bba110ea99646ac, type: 3}
     - time: 0.16666667
       value: {fileID: 1723382761, guid: c33ef46f5235a1241bba110ea99646ac, type: 3}
-    - time: 0.31666666
+    - time: 0.33333334
       value: {fileID: 887331917, guid: c33ef46f5235a1241bba110ea99646ac, type: 3}
     - time: 0.5
       value: {fileID: -840432956, guid: c33ef46f5235a1241bba110ea99646ac, type: 3}
