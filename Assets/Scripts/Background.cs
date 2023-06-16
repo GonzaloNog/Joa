@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Background : MonoBehaviour
 {
-    //esto
     public Sprite[] fondo;
-    //esto
     private SpriteRenderer rend;
     private int idBackground = 0;
 
@@ -18,10 +16,9 @@ public class Background : MonoBehaviour
     {
         CambiarFondo();
     }
-    
     public void CambiarFondo()
     {
-        GetComponent<SpriteRenderer>().sprite = fondo[idBackground];
+        rend.sprite = fondo[idBackground];
     }
 
     public int getIdBackground()

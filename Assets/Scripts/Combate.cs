@@ -56,11 +56,10 @@ public class Combate : MonoBehaviour
         if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
         {
             Debug.Log("newEnemiAttack");
-            newEnemiAtack();
+            StartCoroutine(Wait(2, "enemigo"));
         }
         else if (GameManager.instance.GetEnemigo().EnemigoVidaActual() < 0)
-            //StartCoroutine(Wait(10));
-        endCombat(true);
+            StartCoroutine(Wait(2, "enemigoDead"));
         /*
                 int speedJ = (int)GameManager.instance.GetPlayer().speed;
                 int speedE = GameManager.instance.GetEnemigo().GetEnemySpeed();
@@ -73,11 +72,11 @@ public class Combate : MonoBehaviour
 
 
     }
-    public IEnumerator Wait(int seconds)
+    public IEnumerator Wait(int seconds, string comand)
     {
         Debug.Log("Wait");
-        yield return new WaitForSeconds(10);
-        Debug.Log("Termino Wait");
+        yield return new WaitForSeconds(seconds);
+        timeComands(comand);
     }
     public void newEnemiAtack()
     {
@@ -104,7 +103,7 @@ public class Combate : MonoBehaviour
         }
         Debug.Log("VIDA Actual Jugador: " + GameManager.instance.GetPlayer().GetVidaActual());
         if (GameManager.instance.GetPlayer().GetVidaActual() <= 0)
-            endCombat(false);
+            StartCoroutine(Wait(2, "playerDead"));
     }
     public void endCombat(bool win)
     {
@@ -130,5 +129,21 @@ public class Combate : MonoBehaviour
     {
         float reduction = 100 / (defense + 100);
         return reduction;
+    }
+
+    public void timeComands(string comand)
+    {
+        switch (comand)
+        {
+            case "enemigoDead":
+                endCombat(true);
+                break;
+            case "playerDead":
+                endCombat(false);
+                break;
+            case "enemigo":
+                newEnemiAtack();
+                break;
+        }
     }
 }
