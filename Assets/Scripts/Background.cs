@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Background : MonoBehaviour
 {
+    //esto
     public Sprite[] fondo;
+    //esto
     private SpriteRenderer rend;
     private int idBackground = 0;
 

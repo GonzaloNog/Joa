@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     private bool mitadDeCamino = false;
 
     private int level = 0;
+    // esto
     private void Awake()
     {
         if (instance == null)
@@ -27,11 +28,12 @@ public class GameManager : MonoBehaviour
 
         //DontDestroyOnLoad(this);
     }
-
+    
     public void CheckGameManager()
     {
         Debug.Log("GameManager is ready");
     }
+    // esto
     public void ChangeLifePlayer(float num)
     {
         player.ChangeVida(num);

@@ -13,6 +13,7 @@ public class Enemigo : MonoBehaviour
     public int expEne = 0;
     public string nameEne = "null";
     private float vidaActual = 0;
+    private int speed = 0;
 
     private int enemigoID = 0;
     private bool live = false;
@@ -26,6 +27,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 5;
                 inteligenciaEne = 5;
                 fuerzaEne = 10;
+                speed = 0;
                 expEne = 50;
                 nameEne = "slime";
                 enemigoID = 0;
@@ -35,6 +37,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 7;
                 inteligenciaEne = 7;
                 fuerzaEne = 20;
+                speed = 20;
                 expEne = 100;
                 nameEne = "rat";
                 enemigoID = 1;
@@ -44,6 +47,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 11;
                 inteligenciaEne = 13;
                 fuerzaEne = 25;
+                speed = 5;
                 expEne = 150;
                 nameEne = "worm";
                 enemigoID = 2;
@@ -53,6 +57,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 16;
                 inteligenciaEne = 15;
                 fuerzaEne = 30;
+                speed = 0;
                 expEne = 200;
                 nameEne = "boneworm";
                 enemigoID = 3;
@@ -62,6 +67,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 20;
                 inteligenciaEne = 20;
                 fuerzaEne = 35;
+                speed = 30;
                 expEne = 250;
                 nameEne = "wolf";
                 enemigoID = 4;
@@ -71,6 +77,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 26;
                 inteligenciaEne = 23;
                 fuerzaEne = 40;
+                speed = 20;
                 expEne = 300;
                 nameEne = "spider";
                 enemigoID = 5;
@@ -80,6 +87,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 33;
                 inteligenciaEne = 27;
                 fuerzaEne = 45;
+                speed = 20;
                 expEne = 350;
                 nameEne = "scorpion";
                 enemigoID = 6;
@@ -89,6 +97,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 56;
                 inteligenciaEne = 40;
                 fuerzaEne = 25;
+                speed = 40;
                 expEne = 400;
                 nameEne = "cerberus";
                 enemigoID = 7;
@@ -98,6 +107,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 57;
                 inteligenciaEne = 100;
                 fuerzaEne = 20;
+                speed = 50;
                 expEne = 1000;
                 nameEne = "boss";
                 enemigoID = 8;
@@ -110,6 +120,10 @@ public class Enemigo : MonoBehaviour
         }
         vidaActual = vidaEne;
         GameManager.instance.ChangeVidaEnemigo();
+    }
+    public int GetEnemySpeed()
+    {
+        return speed;
     }
     public bool ChangeVida(float _changeVida)
     {

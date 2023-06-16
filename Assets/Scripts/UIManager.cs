@@ -36,8 +36,8 @@ public class UIManager : MonoBehaviour
     }
     public void AtaqueUI(string attack)
     {
+        Debug.Log("AtaqueUI: " + attack);
         GameManager.instance.GetCombate().newAtack(attack);
-        Debug.Log("UIManager AtaqueUI: " + attack);
     }
     public void changeVisionItems()
     {

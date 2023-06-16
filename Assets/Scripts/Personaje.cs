@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
+    public JugadorAnim anim;
     //Estadisticas
     public float vidaMaxima = 300;
     public float defensa = 90;
@@ -13,19 +14,25 @@ public class Personaje : MonoBehaviour
     public float speed = 20;
     public bool live = true;
 
-    //Estadisticas Buff
+    //ataque = 0
+    //golpe recibido = 1
+    //idle 2 = 2
+    int animacion = 0;
+
+    /*Estadisticas Buff
     private float vidaMaximaBuff = 0;
     private float defensaBuff = 0;
-    private float inteligenciaBuff = 0;
-    private float fuerzaBuff = 0;
     private float speedBuff = 0;
 
     //Estadisticas equipo
     private float vidaMaximaEquip = 0;
     private float defensaEquip = 0;
+    private float speedEquipo = 0;*/
+
+    private float inteligenciaBuff = 0;
+    private float fuerzaBuff = 0;
     private float inteligenciaEquip = 0;
     private float fuerzaEquip = 0;
-    private float speedEquipo = 0;
 
     //exp
     private int exp = 0;
@@ -48,7 +55,12 @@ public class Personaje : MonoBehaviour
     {
         vidaActual = vidaActual + _changeVida;
         GameManager.instance.ChangeVidaPLayer();
-        Debug.Log(vidaActual);
+        Debug.Log("vidaActualJugador"+vidaActual);
+        if (_changeVida < 0)
+        {
+            animacion = 1;
+            UpdateAnim();
+        }
         if (vidaActual > vidaMaxima)
         {
             vidaActual = vidaMaxima;
@@ -113,17 +125,24 @@ public class Personaje : MonoBehaviour
             Debug.Log("Puntos insuficientes");
         }
     }
-
     public float NormalAttack()
     {
+        animacion = 0;
+        UpdateAnim();
         return fuerza + fuerzaBuff + fuerzaEquip;
     }
     public float MagicAttack()
     {
+        animacion = 0;
+        UpdateAnim();
         return inteligencia + inteligenciaBuff + inteligenciaEquip;
     }
     public float GetVidaActual()
     {
         return vidaActual;
     }
+    public void UpdateAnim()
+    {
+        anim.UpdateAnim(animacion);
+    }   
 }
