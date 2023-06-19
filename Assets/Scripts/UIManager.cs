@@ -14,14 +14,14 @@ public class UIManager : MonoBehaviour
     public GameObject itemsSubMenu;
     public GameObject combate;
     public GameObject endGame;
-
+    public GameObject botones;
     private void Start()
     {
         itemsSubMenu.SetActive(false);
     }
     public void ActivarCombate(bool com)
     {
-        combate.SetActive(com);
+        combate.gameObject.SetActive(com);
     }
     public void ChangeBackgroundRandom()
     {
@@ -74,5 +74,9 @@ public class UIManager : MonoBehaviour
     public void NewLevel()
     {
         GameManager.instance.NewLevel();
+    }
+    public void ActivarBotones(bool bot)
+    {
+        botones.SetActive(bot);
     }
 }

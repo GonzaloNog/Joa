@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Combate : MonoBehaviour
 {
+    private UIManager UI;
+    private activar_botones botones;
     // esto
     [System.Serializable]
     public struct Dificultad
@@ -34,6 +36,7 @@ public class Combate : MonoBehaviour
         return inCombat;
     }
 
+  
     public void newAtack(string attack)
     {
         Debug.Log("Entro newAttack");
@@ -53,6 +56,7 @@ public class Combate : MonoBehaviour
                 Debug.Log("Daño Mag Jug:" + dañoFinal_m);
                 break;
         }
+        botones.ActivarBotones(false);
         if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
         {
             Debug.Log("newEnemiAttack");
@@ -65,12 +69,9 @@ public class Combate : MonoBehaviour
                 int speedE = GameManager.instance.GetEnemigo().GetEnemySpeed();
                 if (speedJ > speedE)
                 {
-
                 }
                 else 
         */
-
-
     }
     public IEnumerator Wait(int seconds, string comand)
     {
@@ -104,6 +105,7 @@ public class Combate : MonoBehaviour
         Debug.Log("VIDA Actual Jugador: " + GameManager.instance.GetPlayer().GetVidaActual());
         if (GameManager.instance.GetPlayer().GetVidaActual() <= 0)
             StartCoroutine(Wait(2, "playerDead"));
+        botones.ActivarBotones(true);
     }
     public void endCombat(bool win)
     {
