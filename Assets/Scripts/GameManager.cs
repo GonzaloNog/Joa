@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
     }
     public FondoAnim GetFondoAnim()
     {
+        Debug.Log("Entro GameManager: GetFondoAnim");
         return fondoanim;
     }
     public void NextLevel()

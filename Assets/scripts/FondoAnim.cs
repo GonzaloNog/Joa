@@ -11,7 +11,8 @@ public class FondoAnim : MonoBehaviour
     }
     public void UpdateAnim(int IdFondo, bool exitAnim)
     {
+        Debug.Log("UpdateAnim FondoAnim.cs");
         anim.SetInteger("IdFondo", IdFondo);
-        anim.SetBool("inCOmbat", exitAnim);
+        anim.SetBool("exitAnim", exitAnim);
     }
 }

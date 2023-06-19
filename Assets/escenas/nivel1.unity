@@ -4059,6 +4059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d99fc035fe3356544a0ca63cf93204cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fondoan: {fileID: 1985934047}
   IdFondo: 0
   exitAnim: 0
   enemigos:
@@ -4890,7 +4891,7 @@ MonoBehaviour:
   fondo: {fileID: 942657933}
   UI: {fileID: 749620938}
   comb: {fileID: 1685847524}
-  fondoanim: {fileID: 0}
+  fondoanim: {fileID: 1985934047}
   nivelActual: 0
   changelevel: 0
   finishLevel: 0

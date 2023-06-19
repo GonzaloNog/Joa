@@ -8,6 +8,7 @@ public class Combate : MonoBehaviour
 {
     private UIManager UI;
     private activar_botones botones;
+    public FondoAnim fondoan;
     public int IdFondo = 0;
     public bool exitAnim = false;
     // esto
@@ -35,16 +36,19 @@ public class Combate : MonoBehaviour
     }
     public void fondoDecider()
     {
+        Debug.Log("Entro fondoDecider");
         IdFondo = UnityEngine.Random.Range(0, 2);
         exitAnim = false;
-        GameManager.instance.GetFondoAnim().UpdateAnim(IdFondo, exitAnim);
-
+        UpdateAnim(IdFondo, exitAnim);
     }
     public bool GetinCombat()
     {
         return inCombat;
     }
-
+    public void UpdateAnim(int IdFondo, bool exitAnim)
+    {
+        fondoan.UpdateAnim(IdFondo, exitAnim);
+    }
 
     public void toggleBotones(bool bot)
     {
@@ -171,7 +175,6 @@ public class Combate : MonoBehaviour
     }
     public string GetNewEnemy()
     {
-        //random sin UnityEngine. daba cs0104
         int a = UnityEngine.Random.Range(0, enemigos[GameManager.instance.nivelActual].enemigos.Length);
         return enemigos[GameManager.instance.nivelActual].enemigos[a];
     }
