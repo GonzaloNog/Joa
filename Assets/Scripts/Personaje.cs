@@ -55,7 +55,7 @@ public class Personaje : MonoBehaviour
     {
         vidaActual = vidaActual + _changeVida;
         GameManager.instance.ChangeVidaPLayer();
-        Debug.Log("vidaActualJugador"+vidaActual);
+        //Debug.Log("vidaActualJugador"+vidaActual);
         if (_changeVida < 0)
         {
             animacion = 1;
@@ -69,7 +69,7 @@ public class Personaje : MonoBehaviour
         else if (vidaActual <= 0)
         {
             live = false;
-            Debug.Log("Player Muere");
+            //Debug.Log("Player Muere");
             return false;
         }
         else
@@ -78,14 +78,14 @@ public class Personaje : MonoBehaviour
     public void ChangeExp(int _exp)
     {
         exp += _exp;
-        Debug.Log("nueva exp: " + exp);
+        //Debug.Log("nueva exp: " + exp);
         if (exp >= nextLevelExp)
         {
             level++;
             puntos += 5;
             exp -= nextLevelExp;
             nextLevelExp = nextLevelExp * 2;
-            Debug.Log("new level " + level);
+            //Debug.Log("new level " + level);
         }
     }
     public void UsePoints(string estadistica, int cantidad)
@@ -101,7 +101,7 @@ public class Personaje : MonoBehaviour
                     if (vidaActual > vidaMaxima)
                         vidaActual = vidaMaxima;
                     GameManager.instance.ChangeVidaPLayer();
-                    Debug.Log("nueva vida maxima: " + vidaMaxima);
+                    //Debug.Log("nueva vida maxima: " + vidaMaxima);
                     break;
                 case "defensa":
                     defensa = defensa + (cantidad * 10);

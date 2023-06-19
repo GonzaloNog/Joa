@@ -13,7 +13,7 @@ public class Enemigo : MonoBehaviour
     public int expEne = 0;
     public string nameEne = "null";
     private float vidaActual = 0;
-    private int speed = 0;
+    public int speed = 0;
 
     private int enemigoID = 0;
     private bool live = false;
@@ -27,7 +27,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 5;
                 inteligenciaEne = 5;
                 fuerzaEne = 10;
-                speed = 0;
+                speed = 120;
                 expEne = 50;
                 nameEne = "slime";
                 enemigoID = 0;
@@ -37,7 +37,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 7;
                 inteligenciaEne = 7;
                 fuerzaEne = 20;
-                speed = 20;
+                speed = 120;
                 expEne = 100;
                 nameEne = "rat";
                 enemigoID = 1;
@@ -47,7 +47,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 11;
                 inteligenciaEne = 13;
                 fuerzaEne = 25;
-                speed = 5;
+                speed = 125;
                 expEne = 150;
                 nameEne = "worm";
                 enemigoID = 2;
@@ -129,7 +129,7 @@ public class Enemigo : MonoBehaviour
     {
         vidaActual = vidaActual + _changeVida;
         GameManager.instance.ChangeVidaEnemigo();
-        Debug.Log("vida actual enemigo:"+vidaActual);
+        //Debug.Log("vida actual enemigo:"+vidaActual);
         if (vidaActual > vidaEne)
         {
             vidaActual = vidaEne;
@@ -139,7 +139,7 @@ public class Enemigo : MonoBehaviour
         {
             live = false;
             UpdateAnim();
-            Debug.Log("Enemigo Muere");
+            //ebug.Log("Enemigo Muere");
             return false;
         }
         else

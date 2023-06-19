@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public Background fondo;
     public UIManager UI;
     public Combate comb;
+    public FondoAnim fondoanim;
     public int nivelActual = 1;
     public bool changelevel = false;
     public int finishLevel = 0;
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
     
     public void CheckGameManager()
     {
-        Debug.Log("GameManager is ready");
+        //Debug.Log("GameManager is ready");
     }
     // esto
     public void ChangeLifePlayer(float num)
@@ -58,6 +59,10 @@ public class GameManager : MonoBehaviour
     public Combate GetCombate()
     {
         return comb;
+    }
+    public FondoAnim GetFondoAnim()
+    {
+        return fondoanim;
     }
     public void NextLevel()
     {

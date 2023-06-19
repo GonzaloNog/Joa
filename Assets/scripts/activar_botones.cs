@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class activar_botones : MonoBehaviour
 {
-    [SerializeField] private GameObject barracombate;
+    public GameObject barracombate;
 
     public void ActivarBotones(bool asd)
     {
+        Debug.Log("Entro ActivarBotones");
         barracombate.SetActive(asd);
     }
 }

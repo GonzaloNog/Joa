@@ -1,0 +1,6869 @@
+fileFormatVersion: 2
+guid: 4f1645268d5831b4583820608f37c99f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c824139a67af954aa48ebe98c7a1568
+      internalID: -1972899724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5c14afb25a1594abfab3a8c3c4e151
+      internalID: 1102485735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ce6775c1fa61344ba5bb68ccd75b7c
+      internalID: 1963005370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0263a7abcabf82e41a9044914072a076
+      internalID: 1130780317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4cbd287a5c7e74eb91be26984a563a
+      internalID: 1116106260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc09e0f16e98d441b8605d85fafa2ee
+      internalID: 1848852115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f6410810c253e4a88f441f42037cb4
+      internalID: 678036162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2ccfcb1ceeee7438a1458d963a8a43
+      internalID: 194410324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77c77eb2c7af0240a64a2971e363533
+      internalID: 1443461253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e0a7cbac78734458f24cc87a4d6fa7
+      internalID: -1065059538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef0cfe3eb2ca304589b8f44dfac4486
+      internalID: -1795413498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c4feefc4555c54e81b60ee63a6d2ce
+      internalID: -1324049395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_12
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421eb5a8641b64549b6a8f48a145ab57
+      internalID: 1661488173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d51ae1198bcea54ea105d12820c8199
+      internalID: 211735731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8cc65551e6ec348945e52922c4c046
+      internalID: 743328619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a1dfd9a404a4d4babcbf1081da0f6d
+      internalID: 1645083205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048f30ac5845e444398b53a8a8a892e7
+      internalID: -1912742560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b78b14efd5d4a94487cdadbbeb5adfc
+      internalID: -1039576390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_18
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e0d3ffb5b3ac7468816e1b6e8638be
+      internalID: -1500432274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0960786fc5c4040ac8fd76a51ab5f7
+      internalID: -1605507897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6da0f42b52df754f81341d97922f48b
+      internalID: -515999882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092f5de5c8bae5446848148a59016620
+      internalID: -1934825929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f638c2b037fe1a4e901fc39d008771e
+      internalID: -1659153909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aecb1b2eb8dce41bc7a8bb908f211e
+      internalID: -355730377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1297f40680a639c4b9385c715698f8c0
+      internalID: 1131203287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8050eec5240133249baeeb2013058abf
+      internalID: -1700032402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48c52ff35f7ad04ebc384d2af322d15
+      internalID: 1534202237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_27
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2147fe3d2dc2e45aafed78125f0e69
+      internalID: 1289261366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee96ddf2e3c58144abc370050189c7ce
+      internalID: -1189263334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c4e394ae2643e4a8d1e60cf55aa9ea
+      internalID: 95179663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_30
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c99fe8e504650c4183bf781db625f2d
+      internalID: 1092864128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_31
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9ef942e8ebc484191b638da08b7870
+      internalID: -505243262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b8f61774d2c6248bf144d54114cdeb
+      internalID: -1060323944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_33
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9702414939a4f4c9b26bb46ccd7b80
+      internalID: 2089067542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_34
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c4ef244f6664e479a9d029a0e25fc5
+      internalID: -640890643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f343a6f3e9854e48ad8d3685b6d2ce2
+      internalID: -375390690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6069c2fb6bbb85418cce59dee2d4bcc
+      internalID: 1274518794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b81e3dcc104134dad5458a5ac00d87
+      internalID: 2055484937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6f50c4bd8afde4291cf1c26e3ab887
+      internalID: 2113252795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_39
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0c8bc89c5bd8c4bacf35dc2f488766
+      internalID: -695998811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_40
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea646c470d88bd4190b8cfcbf3d5ad9
+      internalID: 1594039162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_41
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51921ef75ed59294ab1008f6c5cc1ca1
+      internalID: -1458368614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e921b9b92ef2245b98e32b077ac1b2
+      internalID: -243208133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7491258cd775a0a4ab1191ab48321720
+      internalID: -1145729280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_44
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8652832e2fbf6a542987829fe0e7a76b
+      internalID: -916944274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_45
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbac75c2917576a4099e4d0f5e63301a
+      internalID: -2100355601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_46
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd3ea45a2203204a9df0454f6251e1b
+      internalID: 1793621076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_47
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca28663b8314e3409d57139d7926d5a
+      internalID: 1934753341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_48
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664511416ee713d4097dc42fa8a9fdfc
+      internalID: -996043566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108e80611d540df47973064544c2b9de
+      internalID: 1200945211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb8af72bb1c644db152a9738bbd3d1
+      internalID: -1771988879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_51
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8018c746fb3d8f4c885bf92ccbbdc1b
+      internalID: -1560248998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_52
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad20e0a5da68ce47afdf91f5139c64f
+      internalID: 139010138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_53
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3da8aafdb10c2c4abececc5ebe96ee5
+      internalID: 650077534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_54
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c688092a360085046bb3b13a6747b39f
+      internalID: -441887849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_55
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eed872a17bf624094b9fa04095af67
+      internalID: -1048684617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f113fb0822374341b071a18ce8e9072
+      internalID: -1040498104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a4398ef43508e4397e70238b270f0d
+      internalID: -1980505232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63ddff657e83c04ab7ad5626c20ad53
+      internalID: -1220743611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_59
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd835b17884504b9bb49f80ea44825
+      internalID: 1830664864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_60
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb44e5395e30a794ca744f697514f3d6
+      internalID: 514906033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_61
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e83b9bd97fa7f45a843524f865bcc5
+      internalID: -1276946626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_62
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9de85c0eb51b3488b74731f8a8bd0a
+      internalID: -1610721205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45186237644f98049971321fea1d0079
+      internalID: 1316343177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee6252935825d8448da301f35ebb0b7
+      internalID: -550112394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d748bf7c661d2946988a2536909974e
+      internalID: 998564081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42661c5043bba04a9cb8ea5c25ae5f5
+      internalID: 393086252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_67
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ac8eb5ce65b3642b166f0ee6633622
+      internalID: -1559508581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_68
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af89dc1152ba3d4eab0663a7a2dfb98
+      internalID: -1641307554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_69
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56676b6b2cb57be4fb468d7a99554265
+      internalID: 489071937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b05a43db901ee4b9a989c284282057
+      internalID: -708935084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00377386b946d944a2c8ff14051f090
+      internalID: 401361156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_72
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6b20e9685ac454ea1d95d29b10f2e1
+      internalID: -1634229227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_73
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415fee1a1c5df2846a539452443163be
+      internalID: 1289585727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_74
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77938b3dbce9d934883c1d7d81a7d4f5
+      internalID: -1742925520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_75
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c6a02dcd6ad6d44b259827a11a6c61
+      internalID: 1766041032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_76
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1f2f55f7adb404aa13d86e20a37216
+      internalID: -327568652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2252bab7f44d1d142a53600279401c7b
+      internalID: 736779552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_78
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1a356cd81399049b6f7eb452473bec
+      internalID: 1119526003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_79
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178da7bb59818d1408ad014fc52ee33e
+      internalID: -877955276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_80
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a032aab46fc6e024f8da7d9f38cd42b0
+      internalID: -1936404116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_81
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424ee02248ab41043bbeb0558d388ef6
+      internalID: 877765919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_82
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982e819c8193f1c47ac2456fa76d5947
+      internalID: -1870490708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_83
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7042e8e90752642baefe53ba5597f0
+      internalID: 158612163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8647edf9ea4af064eab1f7660797da11
+      internalID: 1120238448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39865b53c6078214fb102da48294d7ba
+      internalID: 30890056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_86
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce20b81751c3d149897893468e6ea3b
+      internalID: 1348776805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_87
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f20b3f5af48b047986aeaf121eab64
+      internalID: -917089893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_88
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19c532e4cebe1643a7ea24b502ac829
+      internalID: -130766422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_89
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301711ed626ae3a489cf389efd4ea78d
+      internalID: 1848426190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_90
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558101211665e464fa16aa0376f0a5fd
+      internalID: -245881804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd2f6808cc8e24d9f3af730b1a405c
+      internalID: 558912862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4624b803a15faa04aa6577905bf0fe63
+      internalID: -976020007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_93
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e493f5d83c945459fd3fe02bd74320
+      internalID: 343186103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_94
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8654fcea4d1da45b00d7e5bdf9fd86
+      internalID: -1635314315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_95
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bbfd25f4ef5c04faeb443b38f7a933
+      internalID: 89758598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_96
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10f363b6f1dea24795fdf09bb96cb69
+      internalID: 1108152447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_97
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7affa976c89da6241b892214219be029
+      internalID: -2061898528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae85584ae0b02f42bf07278b15205d7
+      internalID: 762393685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_99
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669525a23566cf949b0fc5598a7dd4fa
+      internalID: -1230026424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_100
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b513ff968f6badf439a600c14ddca448
+      internalID: -1764495012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_101
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3bf7cac7679c64fb40f2f58fbbb3b8
+      internalID: -553983873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_102
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efe89210d785d644aa2efc8a862896f
+      internalID: -1525274800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_103
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97c8f670b1476b4dac614a9cbbe0c2d
+      internalID: 1814751070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_104
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d70900c0642de545a609c019137bcbb
+      internalID: 1534762925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77606e8b40fb9e4388473a4c38d65b4
+      internalID: -1208258094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca02ebb9bc0b634b8408528d305a746
+      internalID: 384172395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_107
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9a721d382b31343988111d780db2ac
+      internalID: -154582726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_108
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995a95f33579033488e5ccbd8df5c04f
+      internalID: 491508294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_109
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a179d510928da34a9a6b497bed10f04
+      internalID: 85370896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_110
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afc344a4a9203b44a02557f5d12cd26
+      internalID: -671450003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_111
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ee44d7fc91ac43b97f11773077eb0
+      internalID: -2032187885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8854b9cd3aa319749a066bc54bf9707c
+      internalID: -651500006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48950456635045243936b5334bc73a5a
+      internalID: 1322671937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_114
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8e83e50747a8e458b61bbf5814aa93
+      internalID: 390787168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_115
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b46db4f9398c24894fce001d0d33cc
+      internalID: 1231160001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_116
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a080c5ce3e6ba5b40be95370c2dff8a5
+      internalID: 1436340885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_117
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46465bc677041234f81693d30e91f44d
+      internalID: -924951416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_118
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f087fbf18bbd0642b917e874363b127
+      internalID: 2042224274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8595f46e3a00e34db1ffb45d4469a9e
+      internalID: -1667976493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_120
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9946f3efdb3dfe14a8e7c65b2fc496be
+      internalID: -604499176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_121
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a8b27fb546f0343af4d9f7d089fd00
+      internalID: 1263208694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_122
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ca08f2117d0af4590065df03a3c595
+      internalID: 182471946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_123
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c33316e39bf72e43bbf601efa30667e
+      internalID: 430881962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_124
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113b6bc67a7bd2440a5d84b83382d9cd
+      internalID: 1329817561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_125
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b499b232aee1b4ea0ec9895228f205
+      internalID: -1648406793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89f551bbe5429440926672b7ee8f4b6
+      internalID: 102675558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4000
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badcd44a243eac642a17915c11278293
+      internalID: -864360898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_128
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4000
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24746dfc5701db3449dcdb0edded38d0
+      internalID: -1943249322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_129
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4000
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9708079b4b850d449b4a9bee0571876a
+      internalID: 1672099268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_130
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4000
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca3588ce6ad5074c9c382d5307f43bd
+      internalID: -1682585521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_131
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4000
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534693e801d7f0e46a471d83c8439ca0
+      internalID: -622710525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_132
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4000
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac2378c408e5e44a891692327568b52
+      internalID: -1390570522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9e0823e9b17a54e90e0bd90562144a
+      internalID: 1628881631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_134
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3840
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957abf07724f67c4d90d6e75b672dab5
+      internalID: -2046308848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_135
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3840
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3952668956db6944c991cdf2d1f019ac
+      internalID: 1617955939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_136
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3840
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38d9b3fb0461b4d95e5719d4c5dcfc
+      internalID: 1622564134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_137
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3840
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb709705073cb9488d70ab44f8bb8d9
+      internalID: 1240368984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_138
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3840
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b805e2b27d52e46a3443e602a77ed9
+      internalID: 1237996798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_139
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3840
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea52f1089257eb249a4d09251b515aab
+      internalID: 2050289059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3680
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e828d7814a6fdd41b1b24c031a53bfa
+      internalID: 108304270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_141
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3680
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34513423d7f56d42bbdd493c0a272b4
+      internalID: -1050687841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_142
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3680
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5723c3114efdd4ab05c0b022ca4da6
+      internalID: 1029479824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3680
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9888ee1c7a797e479f953e828999703
+      internalID: -32744625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_144
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3680
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ccd76f4eb3b8f4f99eda72643f1490
+      internalID: 2134752655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_145
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3680
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefd4bb6dde5bef4c82a49dcd1f571a0
+      internalID: -1813760513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_146
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3680
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6eea62204a1a74d820ca213574f7c1
+      internalID: -1569263076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3520
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78c0a3500e45574d99614dd2a65214e
+      internalID: -1394849952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3520
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffd5c6e5366a124abbf18eb99ecdcfb
+      internalID: 355402305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_149
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3520
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ab1470eff362149944c34c645596a4
+      internalID: -464719204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_150
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3520
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a495aee86a753a419b6b64770c72a65
+      internalID: 232930735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_151
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3520
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed03183ab137784489dd6b292628e99
+      internalID: -993554191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_152
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3520
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb096efa44999a45aae7a50f0f74cc3
+      internalID: -1693435287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_153
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3520
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff3255c19b637b4e8c1fa7dd17454ae
+      internalID: -1426171765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1775b0b33605442bd905f44b186cd2
+      internalID: 1789619316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_155
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3360
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a58a9b518f03874c8743a4825a1b208
+      internalID: 2011442865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3360
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88f0050874259d428872f1f8bdca598
+      internalID: -1397161375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_157
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3360
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0209b9d20a6c9b469389abf93f775b7
+      internalID: -944638372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_158
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3360
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5adbd61c4b3614e92ba77fc117848f
+      internalID: -61653404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_159
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3360
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e85732f74c9d243949e9319374e3cc
+      internalID: 1628891837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_160
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3360
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2e58924f0622f4dab76fa30f645768
+      internalID: -1004452520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb9bf50b90a9b14aa4eaba928137321
+      internalID: -876433032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_162
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3200
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e905f597a452043b712909f608da5d
+      internalID: 2012367463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_163
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3200
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d36eb1aa23cfa40a2f234f21afe9a9
+      internalID: -1995742176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_164
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3200
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6839d09bd5a1549ae03067a3fef615
+      internalID: 583736405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_165
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3200
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bd44c229ced564bb689e65e7fb9b43
+      internalID: -500430363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_166
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3200
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02620a024c8425a499448b150e950ac0
+      internalID: -1971196599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_167
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3200
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a048e26d2aed34a8fb31d33153343b
+      internalID: 1327677471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3040
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac3bf2f8d9e3064f870f83e8bfbf26e
+      internalID: -1282079654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_169
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3040
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5add4b51185eef41bad87a87d8fda95
+      internalID: 382974002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_170
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3040
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9417a8bc44bcf046a41d22d2b911935
+      internalID: -169882173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_171
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3040
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59faa82ebb8f22428b37a04e12b9c38
+      internalID: -1532818248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_172
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3040
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c96acbd982a384fbb0935806d03f3b
+      internalID: 814217282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_173
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3040
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65730fbbfd413d94a8abed88df217298
+      internalID: 624758182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_174
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3040
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fac8c1c354200498047dae85838e82
+      internalID: 230858140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73b03df4539f3d4097baa0dbf96aac6
+      internalID: -1686364792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedabcd9a340f4842a5bd86274056026
+      internalID: -1619905776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_177
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6547ee9e1030d9b468b545c836c85e95
+      internalID: -1186223054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_178
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360b5ce37761b7f458366c74665d5517
+      internalID: 1937701335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_179
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7900e329c3fc1b844b6bf1ef5825a7d0
+      internalID: -59316074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_180
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf354d9aa90bf9448a436269a248240
+      internalID: -523313395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_181
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2880
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08108dd9b4c0ab545b30a67896986e64
+      internalID: 526678619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2fdb3c2a1ebf04d9c09f0ac1f1df43
+      internalID: -1638044888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_183
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7968287bc3f080d4fb4c31b6f991f555
+      internalID: -288335717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_184
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae9aa32cc4ffd047a6cd5211979d25f
+      internalID: -1528910311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_185
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e621ed22019524a9a3f718b21c2c83
+      internalID: 1326674589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_186
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bc5ad946f62234087ed5e1d6993c80
+      internalID: 823868447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_187
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5179d89ecf796e341a9cf5638bc8afcf
+      internalID: -1869874128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_188
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2720
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f6c9931cc01d468cfabc48e84c5ac
+      internalID: -199781003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aea9774e9d3e84abf22707b950fca5
+      internalID: 1806864051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896e0f0d2816bac44938520fd3cb8ffe
+      internalID: 371250195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_191
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89e3e5fa1948b9449441466bee11ba9
+      internalID: -991310599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_192
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e39e4bf88d817048a1843bb2d0efc5a
+      internalID: -1974573018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_193
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be23f2dd96538041b7c385a33e6dc10
+      internalID: 1781447726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_194
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdc2cd15a08eec4c9dd1b64d5f44ea4
+      internalID: 560992025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_195
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2560
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4c26e632135b04a95e48c3bb28c821
+      internalID: -1256039607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca22b9aa99b1d348bb84135a269ef5e
+      internalID: -25757069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_197
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f040c805c69e9c349ac48e10f09ca6c1
+      internalID: -1665982003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_198
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f06e7bc7d3d834088c1d7d200a90bf
+      internalID: 274974455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_199
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad06ee14c70a504f8ea44ff72532cd2
+      internalID: 558490037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_200
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55061d072f97e5438d39b62ac467456
+      internalID: 576268299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_201
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b92137e363b8484080234a28bc0472e
+      internalID: 660424285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_202
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2400
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2a4302af08e874d9568fdc526920c5
+      internalID: 646378705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8aac4c8aaa4ca448f119f76043a32b
+      internalID: -744865020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_204
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc77b9753cd83ff4abf8de9eeba40cde
+      internalID: -1129766576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_205
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9746d72b5f3867d42bddd23ef3500b55
+      internalID: -1453836027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_206
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af047842fd401004bac079071acd2506
+      internalID: 773750683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_207
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabde6b5a269a7a44839218713cd1940
+      internalID: 2008894563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_208
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ef8c2554fd6d479fad0b6308e8381
+      internalID: -1736797844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_209
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2240
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d60f108b86e66468595204343a2605
+      internalID: 1036988852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fa57f84f4fbe6439dd7c42e961f2a0
+      internalID: 1757704054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_211
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5420827c00589bb40827f1e3a692861b
+      internalID: -802471357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_212
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3828df3bf76b17a4184862cfd2cac20d
+      internalID: -580604664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_213
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0274735fefb4e4b41a4f37e0a99de94e
+      internalID: -283931103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_214
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce4c760eef783b47ba735d809692cdf
+      internalID: 1512991134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_215
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f27ac5d0a8ac545a8e9c0cfbe3c18e
+      internalID: -1315392139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_216
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2080
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd38efc38043bee4da72709e853dff9d
+      internalID: 1395756754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a2e3e7ee95a4f4a9772be59404e031
+      internalID: 318627034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_218
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b480b3d36354e47af741e16b38b0ca
+      internalID: -1814842773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_219
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d856a2fb1a1db314381502b50bde8888
+      internalID: 1516450527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_220
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afc8fb7a89208c479cd952f8352a987
+      internalID: 1570174245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_221
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b04c1a07451ca94b8ff862f2ea7f510
+      internalID: 2076909769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_222
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536aafe2b423baa46a8c0ec798d66d38
+      internalID: 2089256205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_223
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd76425c4d2fd674b863ec77f9888573
+      internalID: 140393103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79984381a35314c4b9abab9c61a601ae
+      internalID: 2068982552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_225
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639670635b4f2b446aefb47732e8c113
+      internalID: 1358816054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_226
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d7fdc35a468f94b8879ff334efa7f4
+      internalID: 1012391327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_227
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b67bee5b5748f44abcfef7ae0fbdee0
+      internalID: 1756133494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_228
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b087900b584a6d4db0faaca2a4121ca
+      internalID: -537392817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_229
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25551ca5df454e047b5e79335d4a3ef7
+      internalID: -1206071815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_230
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1760
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796048ca66b855048818365b191fa2d7
+      internalID: 2024271484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caac8c6e85a2c042a4e92bfb0044bf6
+      internalID: -1250609755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_232
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204d936d25f15424bb88eb3089faa1f3
+      internalID: -1281527825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_233
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476fa2f352c083049b5b2f2fe334fcae
+      internalID: 1813967962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_234
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542c0b36285adbf45b5a44027c5954c0
+      internalID: 1861258669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_235
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898975f01742f7645ad631efe470125b
+      internalID: -253653858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_236
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a82a8f1101c08419e247fcb323b527
+      internalID: -271664756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_237
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1600
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62728477394b4d046866269bd732ff82
+      internalID: -219039698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2313aa5c63c1c4c99374cac4f08a5d
+      internalID: 28515365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_239
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5820844c918b7b94c90cc72c326872fe
+      internalID: 1177182135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_240
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50863b1a043f0a74b9943fb5c1c1082f
+      internalID: 2056322434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_241
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b34229fa1debd42a5c09fa8cf22eee
+      internalID: 1027341049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_242
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a9283b1ca14046a4c089ba9059c50
+      internalID: 1049415239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_243
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b18f31bb166724da153590d94fd5ac
+      internalID: -545956175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_244
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8795c93a830f8d4d82aee7dff362c48
+      internalID: -270515011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_245
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7130426b37f9b459182d54407fc370
+      internalID: -993717399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_246
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4acb88bd67f6b847af16661c7c0087d
+      internalID: 586661509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_247
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042c678b6e9a6a54489b7e7cb9506028
+      internalID: 312505209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_248
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8a11e943d51d44996c0389a4ac016e
+      internalID: 233641865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_249
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e8369b188ec934489f0222da066db0
+      internalID: 67539783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_250
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf0bf4ba7c7ffd4587c47b33fba3c71
+      internalID: -891051467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_251
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7146b50a310739b40afc24e45f36306e
+      internalID: 1745741933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fce0901d7e5a94cb89e95ca75be677
+      internalID: 861420726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_253
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12545e115341a2b428bda391faa27902
+      internalID: 1434946781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_254
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc370266a15a42245bf7eda543eef62b
+      internalID: -1199652277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_255
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219c026b4ba597f4c9656bb375b16b11
+      internalID: -902686779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_256
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edb9f274c2478e43b7313a2dc597622
+      internalID: -1382009587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_257
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafe99164b0b46f48a9190870682ec5b
+      internalID: 485670304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_258
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1120
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5268a3e9c9e6cce4d822bf24c0d4c626
+      internalID: 840922824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48ea3956b36d5f4aa7cb316f5386451
+      internalID: 1344685212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_260
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef549268a889e014189709b936969c64
+      internalID: -1985660614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_261
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5355cf6cfd62e04a9a5fc6481dc70e5
+      internalID: 288660321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_262
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63acc8d371b4744fb605875e263117a
+      internalID: -690863993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_263
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2149b840a5a067e4fa9e9ca63249bbce
+      internalID: 213790576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_264
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8f61a5eb115dc4886627f85da71966
+      internalID: 1453961382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_265
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e7e078760ea36459f4c3e3c9ce9301
+      internalID: 1028517104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_266
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56992bf1ed8ec064d906dd04ce7501b5
+      internalID: -1313769350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_267
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d419953f7a3904fbe9cd92f06fc3a8
+      internalID: 1717727921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_268
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c467bf54334a4f649b2ebbdd0585ffbf
+      internalID: -144211198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_269
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64f02da822485348a574cffbf0949dc
+      internalID: 1485088186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_270
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf2040f87acf84682e158037a054f1
+      internalID: -105706753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_271
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9340c580dca62aa49a523ac1444bf2ca
+      internalID: -139990423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_272
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 800
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60455d315e76b94299276bc63e2f9a5
+      internalID: -1432870254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_273
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28aac0b87bb5841bffa17a6d5297d4
+      internalID: 1282812523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_274
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4de93b966ff3ce4db29a6eac568fca1
+      internalID: 1860209492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_275
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f00c5ef9524e448bb8a1953ede010
+      internalID: -106930115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_276
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595e6563045b2874d8d3fdb7114397b5
+      internalID: -1979550783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_277
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf13019100a0564195adc0650bc633f
+      internalID: 1710291358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_278
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf486f67e3109c498ccd2df64b9bca7
+      internalID: -1249098865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_279
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe53e07119022b45bf7e6231e0be93f
+      internalID: 1316924029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370d03404e60f784ab4a92218f20c8dc
+      internalID: 1315245105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_281
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9288b4f21f8d2d4bafc69fb5d3b4ed6
+      internalID: 1239067297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_282
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778e0c95e1332674ba31450b0b736178
+      internalID: 1221598914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_283
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398dd75be938aab40935453dd49186d8
+      internalID: 60078412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_284
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5502c92932fa2a4f8e6374e5fff4a7a
+      internalID: -1233526376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_285
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8507dddbfaaed4ea4548e9298b69b7
+      internalID: -325014832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_286
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e91a048b01c45409153c9e4779b410
+      internalID: -1496189088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_287
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf13f0407ad20494086836fa792a8cd6
+      internalID: -1104500812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_288
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899b7fc6d58bdc648a38d64b3bd2f665
+      internalID: -616435258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_289
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108dc1b606ab94847819fb0ad7bea84a
+      internalID: 2016238539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_290
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c572617e86433af4b913c7ff0e90fa7b
+      internalID: 1572788419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_291
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefc7ee1369bd5a4c9c6bea96889b439
+      internalID: -1284736214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_292
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b77c3a2b35de04581f2fae8e81c455
+      internalID: 276723118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_293
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 320
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6826dbc11f3e35143aedba24744b26ea
+      internalID: 2063787415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_294
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a56a95f7894e24f8dcb9ed47d3b99d
+      internalID: -28078639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_295
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8964529a8ea210a459d0cd50f2ffe42a
+      internalID: -1701442706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_296
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec07b471cf270474980c1995a80b27e9
+      internalID: 330836485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_297
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fb249f3574f0c43ba2f51485426de8
+      internalID: -1460282452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_298
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82aee9f96921a5b41b80f93450a00b90
+      internalID: -503075634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_299
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53425193950e7243965f0118827fb11
+      internalID: 261386059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_300
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 160
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b30328d6ca7704ea6f3310ace48628
+      internalID: 1717463828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_301
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea1cc814c24bfb49909dcb725efac9e
+      internalID: -888310808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_302
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07efb013f58bbbf4f8e1a14bb0b7cadd
+      internalID: -61240265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_303
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50120edce971ab64eaa3f7e53bd07a34
+      internalID: -1339562518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_304
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac2785e0f97f1144a56fe40f7f829c6
+      internalID: 118384390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2794008_suoper_earthbound-battle-backgrounds_305
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a3833eaf2661f4c9dd2d10d948a9b3
+      internalID: -514283610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2794008_suoper_earthbound-battle-backgrounds_0: -1972899724
+      2794008_suoper_earthbound-battle-backgrounds_1: 1102485735
+      2794008_suoper_earthbound-battle-backgrounds_10: -1795413498
+      2794008_suoper_earthbound-battle-backgrounds_100: -1764495012
+      2794008_suoper_earthbound-battle-backgrounds_101: -553983873
+      2794008_suoper_earthbound-battle-backgrounds_102: -1525274800
+      2794008_suoper_earthbound-battle-backgrounds_103: 1814751070
+      2794008_suoper_earthbound-battle-backgrounds_104: 1534762925
+      2794008_suoper_earthbound-battle-backgrounds_105: -1208258094
+      2794008_suoper_earthbound-battle-backgrounds_106: 384172395
+      2794008_suoper_earthbound-battle-backgrounds_107: -154582726
+      2794008_suoper_earthbound-battle-backgrounds_108: 491508294
+      2794008_suoper_earthbound-battle-backgrounds_109: 85370896
+      2794008_suoper_earthbound-battle-backgrounds_11: -1324049395
+      2794008_suoper_earthbound-battle-backgrounds_110: -671450003
+      2794008_suoper_earthbound-battle-backgrounds_111: -2032187885
+      2794008_suoper_earthbound-battle-backgrounds_112: -651500006
+      2794008_suoper_earthbound-battle-backgrounds_113: 1322671937
+      2794008_suoper_earthbound-battle-backgrounds_114: 390787168
+      2794008_suoper_earthbound-battle-backgrounds_115: 1231160001
+      2794008_suoper_earthbound-battle-backgrounds_116: 1436340885
+      2794008_suoper_earthbound-battle-backgrounds_117: -924951416
+      2794008_suoper_earthbound-battle-backgrounds_118: 2042224274
+      2794008_suoper_earthbound-battle-backgrounds_119: -1667976493
+      2794008_suoper_earthbound-battle-backgrounds_12: 1661488173
+      2794008_suoper_earthbound-battle-backgrounds_120: -604499176
+      2794008_suoper_earthbound-battle-backgrounds_121: 1263208694
+      2794008_suoper_earthbound-battle-backgrounds_122: 182471946
+      2794008_suoper_earthbound-battle-backgrounds_123: 430881962
+      2794008_suoper_earthbound-battle-backgrounds_124: 1329817561
+      2794008_suoper_earthbound-battle-backgrounds_125: -1648406793
+      2794008_suoper_earthbound-battle-backgrounds_126: 102675558
+      2794008_suoper_earthbound-battle-backgrounds_127: -864360898
+      2794008_suoper_earthbound-battle-backgrounds_128: -1943249322
+      2794008_suoper_earthbound-battle-backgrounds_129: 1672099268
+      2794008_suoper_earthbound-battle-backgrounds_13: 211735731
+      2794008_suoper_earthbound-battle-backgrounds_130: -1682585521
+      2794008_suoper_earthbound-battle-backgrounds_131: -622710525
+      2794008_suoper_earthbound-battle-backgrounds_132: -1390570522
+      2794008_suoper_earthbound-battle-backgrounds_133: 1628881631
+      2794008_suoper_earthbound-battle-backgrounds_134: -2046308848
+      2794008_suoper_earthbound-battle-backgrounds_135: 1617955939
+      2794008_suoper_earthbound-battle-backgrounds_136: 1622564134
+      2794008_suoper_earthbound-battle-backgrounds_137: 1240368984
+      2794008_suoper_earthbound-battle-backgrounds_138: 1237996798
+      2794008_suoper_earthbound-battle-backgrounds_139: 2050289059
+      2794008_suoper_earthbound-battle-backgrounds_14: 743328619
+      2794008_suoper_earthbound-battle-backgrounds_140: 108304270
+      2794008_suoper_earthbound-battle-backgrounds_141: -1050687841
+      2794008_suoper_earthbound-battle-backgrounds_142: 1029479824
+      2794008_suoper_earthbound-battle-backgrounds_143: -32744625
+      2794008_suoper_earthbound-battle-backgrounds_144: 2134752655
+      2794008_suoper_earthbound-battle-backgrounds_145: -1813760513
+      2794008_suoper_earthbound-battle-backgrounds_146: -1569263076
+      2794008_suoper_earthbound-battle-backgrounds_147: -1394849952
+      2794008_suoper_earthbound-battle-backgrounds_148: 355402305
+      2794008_suoper_earthbound-battle-backgrounds_149: -464719204
+      2794008_suoper_earthbound-battle-backgrounds_15: 1645083205
+      2794008_suoper_earthbound-battle-backgrounds_150: 232930735
+      2794008_suoper_earthbound-battle-backgrounds_151: -993554191
+      2794008_suoper_earthbound-battle-backgrounds_152: -1693435287
+      2794008_suoper_earthbound-battle-backgrounds_153: -1426171765
+      2794008_suoper_earthbound-battle-backgrounds_154: 1789619316
+      2794008_suoper_earthbound-battle-backgrounds_155: 2011442865
+      2794008_suoper_earthbound-battle-backgrounds_156: -1397161375
+      2794008_suoper_earthbound-battle-backgrounds_157: -944638372
+      2794008_suoper_earthbound-battle-backgrounds_158: -61653404
+      2794008_suoper_earthbound-battle-backgrounds_159: 1628891837
+      2794008_suoper_earthbound-battle-backgrounds_16: -1912742560
+      2794008_suoper_earthbound-battle-backgrounds_160: -1004452520
+      2794008_suoper_earthbound-battle-backgrounds_161: -876433032
+      2794008_suoper_earthbound-battle-backgrounds_162: 2012367463
+      2794008_suoper_earthbound-battle-backgrounds_163: -1995742176
+      2794008_suoper_earthbound-battle-backgrounds_164: 583736405
+      2794008_suoper_earthbound-battle-backgrounds_165: -500430363
+      2794008_suoper_earthbound-battle-backgrounds_166: -1971196599
+      2794008_suoper_earthbound-battle-backgrounds_167: 1327677471
+      2794008_suoper_earthbound-battle-backgrounds_168: -1282079654
+      2794008_suoper_earthbound-battle-backgrounds_169: 382974002
+      2794008_suoper_earthbound-battle-backgrounds_17: -1039576390
+      2794008_suoper_earthbound-battle-backgrounds_170: -169882173
+      2794008_suoper_earthbound-battle-backgrounds_171: -1532818248
+      2794008_suoper_earthbound-battle-backgrounds_172: 814217282
+      2794008_suoper_earthbound-battle-backgrounds_173: 624758182
+      2794008_suoper_earthbound-battle-backgrounds_174: 230858140
+      2794008_suoper_earthbound-battle-backgrounds_175: -1686364792
+      2794008_suoper_earthbound-battle-backgrounds_176: -1619905776
+      2794008_suoper_earthbound-battle-backgrounds_177: -1186223054
+      2794008_suoper_earthbound-battle-backgrounds_178: 1937701335
+      2794008_suoper_earthbound-battle-backgrounds_179: -59316074
+      2794008_suoper_earthbound-battle-backgrounds_18: -1500432274
+      2794008_suoper_earthbound-battle-backgrounds_180: -523313395
+      2794008_suoper_earthbound-battle-backgrounds_181: 526678619
+      2794008_suoper_earthbound-battle-backgrounds_182: -1638044888
+      2794008_suoper_earthbound-battle-backgrounds_183: -288335717
+      2794008_suoper_earthbound-battle-backgrounds_184: -1528910311
+      2794008_suoper_earthbound-battle-backgrounds_185: 1326674589
+      2794008_suoper_earthbound-battle-backgrounds_186: 823868447
+      2794008_suoper_earthbound-battle-backgrounds_187: -1869874128
+      2794008_suoper_earthbound-battle-backgrounds_188: -199781003
+      2794008_suoper_earthbound-battle-backgrounds_189: 1806864051
+      2794008_suoper_earthbound-battle-backgrounds_19: -1605507897
+      2794008_suoper_earthbound-battle-backgrounds_190: 371250195
+      2794008_suoper_earthbound-battle-backgrounds_191: -991310599
+      2794008_suoper_earthbound-battle-backgrounds_192: -1974573018
+      2794008_suoper_earthbound-battle-backgrounds_193: 1781447726
+      2794008_suoper_earthbound-battle-backgrounds_194: 560992025
+      2794008_suoper_earthbound-battle-backgrounds_195: -1256039607
+      2794008_suoper_earthbound-battle-backgrounds_196: -25757069
+      2794008_suoper_earthbound-battle-backgrounds_197: -1665982003
+      2794008_suoper_earthbound-battle-backgrounds_198: 274974455
+      2794008_suoper_earthbound-battle-backgrounds_199: 558490037
+      2794008_suoper_earthbound-battle-backgrounds_2: 1963005370
+      2794008_suoper_earthbound-battle-backgrounds_20: -515999882
+      2794008_suoper_earthbound-battle-backgrounds_200: 576268299
+      2794008_suoper_earthbound-battle-backgrounds_201: 660424285
+      2794008_suoper_earthbound-battle-backgrounds_202: 646378705
+      2794008_suoper_earthbound-battle-backgrounds_203: -744865020
+      2794008_suoper_earthbound-battle-backgrounds_204: -1129766576
+      2794008_suoper_earthbound-battle-backgrounds_205: -1453836027
+      2794008_suoper_earthbound-battle-backgrounds_206: 773750683
+      2794008_suoper_earthbound-battle-backgrounds_207: 2008894563
+      2794008_suoper_earthbound-battle-backgrounds_208: -1736797844
+      2794008_suoper_earthbound-battle-backgrounds_209: 1036988852
+      2794008_suoper_earthbound-battle-backgrounds_21: -1934825929
+      2794008_suoper_earthbound-battle-backgrounds_210: 1757704054
+      2794008_suoper_earthbound-battle-backgrounds_211: -802471357
+      2794008_suoper_earthbound-battle-backgrounds_212: -580604664
+      2794008_suoper_earthbound-battle-backgrounds_213: -283931103
+      2794008_suoper_earthbound-battle-backgrounds_214: 1512991134
+      2794008_suoper_earthbound-battle-backgrounds_215: -1315392139
+      2794008_suoper_earthbound-battle-backgrounds_216: 1395756754
+      2794008_suoper_earthbound-battle-backgrounds_217: 318627034
+      2794008_suoper_earthbound-battle-backgrounds_218: -1814842773
+      2794008_suoper_earthbound-battle-backgrounds_219: 1516450527
+      2794008_suoper_earthbound-battle-backgrounds_22: -1659153909
+      2794008_suoper_earthbound-battle-backgrounds_220: 1570174245
+      2794008_suoper_earthbound-battle-backgrounds_221: 2076909769
+      2794008_suoper_earthbound-battle-backgrounds_222: 2089256205
+      2794008_suoper_earthbound-battle-backgrounds_223: 140393103
+      2794008_suoper_earthbound-battle-backgrounds_224: 2068982552
+      2794008_suoper_earthbound-battle-backgrounds_225: 1358816054
+      2794008_suoper_earthbound-battle-backgrounds_226: 1012391327
+      2794008_suoper_earthbound-battle-backgrounds_227: 1756133494
+      2794008_suoper_earthbound-battle-backgrounds_228: -537392817
+      2794008_suoper_earthbound-battle-backgrounds_229: -1206071815
+      2794008_suoper_earthbound-battle-backgrounds_23: -355730377
+      2794008_suoper_earthbound-battle-backgrounds_230: 2024271484
+      2794008_suoper_earthbound-battle-backgrounds_231: -1250609755
+      2794008_suoper_earthbound-battle-backgrounds_232: -1281527825
+      2794008_suoper_earthbound-battle-backgrounds_233: 1813967962
+      2794008_suoper_earthbound-battle-backgrounds_234: 1861258669
+      2794008_suoper_earthbound-battle-backgrounds_235: -253653858
+      2794008_suoper_earthbound-battle-backgrounds_236: -271664756
+      2794008_suoper_earthbound-battle-backgrounds_237: -219039698
+      2794008_suoper_earthbound-battle-backgrounds_238: 28515365
+      2794008_suoper_earthbound-battle-backgrounds_239: 1177182135
+      2794008_suoper_earthbound-battle-backgrounds_24: 1131203287
+      2794008_suoper_earthbound-battle-backgrounds_240: 2056322434
+      2794008_suoper_earthbound-battle-backgrounds_241: 1027341049
+      2794008_suoper_earthbound-battle-backgrounds_242: 1049415239
+      2794008_suoper_earthbound-battle-backgrounds_243: -545956175
+      2794008_suoper_earthbound-battle-backgrounds_244: -270515011
+      2794008_suoper_earthbound-battle-backgrounds_245: -993717399
+      2794008_suoper_earthbound-battle-backgrounds_246: 586661509
+      2794008_suoper_earthbound-battle-backgrounds_247: 312505209
+      2794008_suoper_earthbound-battle-backgrounds_248: 233641865
+      2794008_suoper_earthbound-battle-backgrounds_249: 67539783
+      2794008_suoper_earthbound-battle-backgrounds_25: -1700032402
+      2794008_suoper_earthbound-battle-backgrounds_250: -891051467
+      2794008_suoper_earthbound-battle-backgrounds_251: 1745741933
+      2794008_suoper_earthbound-battle-backgrounds_252: 861420726
+      2794008_suoper_earthbound-battle-backgrounds_253: 1434946781
+      2794008_suoper_earthbound-battle-backgrounds_254: -1199652277
+      2794008_suoper_earthbound-battle-backgrounds_255: -902686779
+      2794008_suoper_earthbound-battle-backgrounds_256: -1382009587
+      2794008_suoper_earthbound-battle-backgrounds_257: 485670304
+      2794008_suoper_earthbound-battle-backgrounds_258: 840922824
+      2794008_suoper_earthbound-battle-backgrounds_259: 1344685212
+      2794008_suoper_earthbound-battle-backgrounds_26: 1534202237
+      2794008_suoper_earthbound-battle-backgrounds_260: -1985660614
+      2794008_suoper_earthbound-battle-backgrounds_261: 288660321
+      2794008_suoper_earthbound-battle-backgrounds_262: -690863993
+      2794008_suoper_earthbound-battle-backgrounds_263: 213790576
+      2794008_suoper_earthbound-battle-backgrounds_264: 1453961382
+      2794008_suoper_earthbound-battle-backgrounds_265: 1028517104
+      2794008_suoper_earthbound-battle-backgrounds_266: -1313769350
+      2794008_suoper_earthbound-battle-backgrounds_267: 1717727921
+      2794008_suoper_earthbound-battle-backgrounds_268: -144211198
+      2794008_suoper_earthbound-battle-backgrounds_269: 1485088186
+      2794008_suoper_earthbound-battle-backgrounds_27: 1289261366
+      2794008_suoper_earthbound-battle-backgrounds_270: -105706753
+      2794008_suoper_earthbound-battle-backgrounds_271: -139990423
+      2794008_suoper_earthbound-battle-backgrounds_272: -1432870254
+      2794008_suoper_earthbound-battle-backgrounds_273: 1282812523
+      2794008_suoper_earthbound-battle-backgrounds_274: 1860209492
+      2794008_suoper_earthbound-battle-backgrounds_275: -106930115
+      2794008_suoper_earthbound-battle-backgrounds_276: -1979550783
+      2794008_suoper_earthbound-battle-backgrounds_277: 1710291358
+      2794008_suoper_earthbound-battle-backgrounds_278: -1249098865
+      2794008_suoper_earthbound-battle-backgrounds_279: 1316924029
+      2794008_suoper_earthbound-battle-backgrounds_28: -1189263334
+      2794008_suoper_earthbound-battle-backgrounds_280: 1315245105
+      2794008_suoper_earthbound-battle-backgrounds_281: 1239067297
+      2794008_suoper_earthbound-battle-backgrounds_282: 1221598914
+      2794008_suoper_earthbound-battle-backgrounds_283: 60078412
+      2794008_suoper_earthbound-battle-backgrounds_284: -1233526376
+      2794008_suoper_earthbound-battle-backgrounds_285: -325014832
+      2794008_suoper_earthbound-battle-backgrounds_286: -1496189088
+      2794008_suoper_earthbound-battle-backgrounds_287: -1104500812
+      2794008_suoper_earthbound-battle-backgrounds_288: -616435258
+      2794008_suoper_earthbound-battle-backgrounds_289: 2016238539
+      2794008_suoper_earthbound-battle-backgrounds_29: 95179663
+      2794008_suoper_earthbound-battle-backgrounds_290: 1572788419
+      2794008_suoper_earthbound-battle-backgrounds_291: -1284736214
+      2794008_suoper_earthbound-battle-backgrounds_292: 276723118
+      2794008_suoper_earthbound-battle-backgrounds_293: 2063787415
+      2794008_suoper_earthbound-battle-backgrounds_294: -28078639
+      2794008_suoper_earthbound-battle-backgrounds_295: -1701442706
+      2794008_suoper_earthbound-battle-backgrounds_296: 330836485
+      2794008_suoper_earthbound-battle-backgrounds_297: -1460282452
+      2794008_suoper_earthbound-battle-backgrounds_298: -503075634
+      2794008_suoper_earthbound-battle-backgrounds_299: 261386059
+      2794008_suoper_earthbound-battle-backgrounds_3: 1130780317
+      2794008_suoper_earthbound-battle-backgrounds_30: 1092864128
+      2794008_suoper_earthbound-battle-backgrounds_300: 1717463828
+      2794008_suoper_earthbound-battle-backgrounds_301: -888310808
+      2794008_suoper_earthbound-battle-backgrounds_302: -61240265
+      2794008_suoper_earthbound-battle-backgrounds_303: -1339562518
+      2794008_suoper_earthbound-battle-backgrounds_304: 118384390
+      2794008_suoper_earthbound-battle-backgrounds_305: -514283610
+      2794008_suoper_earthbound-battle-backgrounds_306: 1993235752
+      2794008_suoper_earthbound-battle-backgrounds_307: 1950824807
+      2794008_suoper_earthbound-battle-backgrounds_31: -505243262
+      2794008_suoper_earthbound-battle-backgrounds_32: -1060323944
+      2794008_suoper_earthbound-battle-backgrounds_33: 2089067542
+      2794008_suoper_earthbound-battle-backgrounds_34: -640890643
+      2794008_suoper_earthbound-battle-backgrounds_35: -375390690
+      2794008_suoper_earthbound-battle-backgrounds_36: 1274518794
+      2794008_suoper_earthbound-battle-backgrounds_37: 2055484937
+      2794008_suoper_earthbound-battle-backgrounds_38: 2113252795
+      2794008_suoper_earthbound-battle-backgrounds_39: -695998811
+      2794008_suoper_earthbound-battle-backgrounds_4: 1116106260
+      2794008_suoper_earthbound-battle-backgrounds_40: 1594039162
+      2794008_suoper_earthbound-battle-backgrounds_41: -1458368614
+      2794008_suoper_earthbound-battle-backgrounds_42: -243208133
+      2794008_suoper_earthbound-battle-backgrounds_43: -1145729280
+      2794008_suoper_earthbound-battle-backgrounds_44: -916944274
+      2794008_suoper_earthbound-battle-backgrounds_45: -2100355601
+      2794008_suoper_earthbound-battle-backgrounds_46: 1793621076
+      2794008_suoper_earthbound-battle-backgrounds_47: 1934753341
+      2794008_suoper_earthbound-battle-backgrounds_48: -996043566
+      2794008_suoper_earthbound-battle-backgrounds_49: 1200945211
+      2794008_suoper_earthbound-battle-backgrounds_5: 1848852115
+      2794008_suoper_earthbound-battle-backgrounds_50: -1771988879
+      2794008_suoper_earthbound-battle-backgrounds_51: -1560248998
+      2794008_suoper_earthbound-battle-backgrounds_52: 139010138
+      2794008_suoper_earthbound-battle-backgrounds_53: 650077534
+      2794008_suoper_earthbound-battle-backgrounds_54: -441887849
+      2794008_suoper_earthbound-battle-backgrounds_55: -1048684617
+      2794008_suoper_earthbound-battle-backgrounds_56: -1040498104
+      2794008_suoper_earthbound-battle-backgrounds_57: -1980505232
+      2794008_suoper_earthbound-battle-backgrounds_58: -1220743611
+      2794008_suoper_earthbound-battle-backgrounds_59: 1830664864
+      2794008_suoper_earthbound-battle-backgrounds_6: 678036162
+      2794008_suoper_earthbound-battle-backgrounds_60: 514906033
+      2794008_suoper_earthbound-battle-backgrounds_61: -1276946626
+      2794008_suoper_earthbound-battle-backgrounds_62: -1610721205
+      2794008_suoper_earthbound-battle-backgrounds_63: 1316343177
+      2794008_suoper_earthbound-battle-backgrounds_64: -550112394
+      2794008_suoper_earthbound-battle-backgrounds_65: 998564081
+      2794008_suoper_earthbound-battle-backgrounds_66: 393086252
+      2794008_suoper_earthbound-battle-backgrounds_67: -1559508581
+      2794008_suoper_earthbound-battle-backgrounds_68: -1641307554
+      2794008_suoper_earthbound-battle-backgrounds_69: 489071937
+      2794008_suoper_earthbound-battle-backgrounds_7: 194410324
+      2794008_suoper_earthbound-battle-backgrounds_70: -708935084
+      2794008_suoper_earthbound-battle-backgrounds_71: 401361156
+      2794008_suoper_earthbound-battle-backgrounds_72: -1634229227
+      2794008_suoper_earthbound-battle-backgrounds_73: 1289585727
+      2794008_suoper_earthbound-battle-backgrounds_74: -1742925520
+      2794008_suoper_earthbound-battle-backgrounds_75: 1766041032
+      2794008_suoper_earthbound-battle-backgrounds_76: -327568652
+      2794008_suoper_earthbound-battle-backgrounds_77: 736779552
+      2794008_suoper_earthbound-battle-backgrounds_78: 1119526003
+      2794008_suoper_earthbound-battle-backgrounds_79: -877955276
+      2794008_suoper_earthbound-battle-backgrounds_8: 1443461253
+      2794008_suoper_earthbound-battle-backgrounds_80: -1936404116
+      2794008_suoper_earthbound-battle-backgrounds_81: 877765919
+      2794008_suoper_earthbound-battle-backgrounds_82: -1870490708
+      2794008_suoper_earthbound-battle-backgrounds_83: 158612163
+      2794008_suoper_earthbound-battle-backgrounds_84: 1120238448
+      2794008_suoper_earthbound-battle-backgrounds_85: 30890056
+      2794008_suoper_earthbound-battle-backgrounds_86: 1348776805
+      2794008_suoper_earthbound-battle-backgrounds_87: -917089893
+      2794008_suoper_earthbound-battle-backgrounds_88: -130766422
+      2794008_suoper_earthbound-battle-backgrounds_89: 1848426190
+      2794008_suoper_earthbound-battle-backgrounds_9: -1065059538
+      2794008_suoper_earthbound-battle-backgrounds_90: -245881804
+      2794008_suoper_earthbound-battle-backgrounds_91: 558912862
+      2794008_suoper_earthbound-battle-backgrounds_92: -976020007
+      2794008_suoper_earthbound-battle-backgrounds_93: 343186103
+      2794008_suoper_earthbound-battle-backgrounds_94: -1635314315
+      2794008_suoper_earthbound-battle-backgrounds_95: 89758598
+      2794008_suoper_earthbound-battle-backgrounds_96: 1108152447
+      2794008_suoper_earthbound-battle-backgrounds_97: -2061898528
+      2794008_suoper_earthbound-battle-backgrounds_98: 762393685
+      2794008_suoper_earthbound-battle-backgrounds_99: -1230026424
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
