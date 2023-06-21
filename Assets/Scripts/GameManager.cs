@@ -85,6 +85,10 @@ public class GameManager : MonoBehaviour
     {
         UI.SetEndGame(com);
     }
+    public void SetBotonesCombat(bool boot)
+    {
+        UI.ActivarBotones(boot);
+    }
     public void NewLevel()
     {
         if (nivelActual == finishLevel)

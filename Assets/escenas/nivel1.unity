@@ -1809,7 +1809,7 @@ MonoBehaviour:
   itemsSubMenu: {fileID: 1193345948}
   combate: {fileID: 1685847522}
   endGame: {fileID: 176019491}
-  botones: {fileID: 0}
+  botones: {fileID: 1973413251}
 --- !u!1 &814801451
 GameObject:
   m_ObjectHideFlags: 0
@@ -3815,6 +3815,7 @@ MonoBehaviour:
   fuerza: 5
   speed: 20
   live: 1
+  vidaActual: 0
 --- !u!4 &1405821132
 Transform:
   m_ObjectHideFlags: 0
@@ -4757,7 +4758,7 @@ GameObject:
   - component: {fileID: 1985934043}
   - component: {fileID: 1985934045}
   - component: {fileID: 1985934044}
-  - component: {fileID: 1985934046}
+  - component: {fileID: 1985934048}
   - component: {fileID: 1985934047}
   m_Layer: 5
   m_Name: Fondo
@@ -4824,7 +4825,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985934042}
   m_CullTransparentMesh: 1
---- !u!95 &1985934046
+--- !u!114 &1985934047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985934042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986ed3fa23734694682d88bffb35584b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1985934048
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -4845,18 +4858,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1985934047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985934042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 986ed3fa23734694682d88bffb35584b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2000041953
 GameObject:
   m_ObjectHideFlags: 0

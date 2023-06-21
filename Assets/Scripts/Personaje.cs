@@ -41,7 +41,7 @@ public class Personaje : MonoBehaviour
     private int puntos = 10;
 
     //Valores Actuales
-    private float vidaActual = 0;
+    [SerializeField] private float vidaActual = 0;
     void Awake()
     {
         vidaActual = vidaMaxima;

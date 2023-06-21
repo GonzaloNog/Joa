@@ -6,11 +6,10 @@ using UnityEngine;
 
 public class Combate : MonoBehaviour
 {
-    private UIManager UI;
-    private activar_botones botones;
     public FondoAnim fondoan;
     public int IdFondo = 0;
     public bool exitAnim = false;
+    private string atackTipe = "null";
     // esto
     [System.Serializable]
     public struct Dificultad
@@ -28,11 +27,11 @@ public class Combate : MonoBehaviour
 
     public void newCombat()
     {
-        fondoDecider();
         inCombat = true;
         GameManager.instance.GetEnemigo().restartEnemi(GetNewEnemy());
         GameManager.instance.MostrarCombate(true);
         GameManager.instance.GetEnemigo().UpdateAnim();
+        StartCoroutine(Wait(0.01f, "fondo"));
     }
     public void fondoDecider()
     {
@@ -53,7 +52,6 @@ public class Combate : MonoBehaviour
     public void toggleBotones(bool bot)
     {
         Debug.Log("entro toggleBotones");
-        botones.ActivarBotones(bot);
     }
     public bool primerTurno()
     {
@@ -70,8 +68,7 @@ public class Combate : MonoBehaviour
         }
         Debug.Log("speedJugador "+speedJugador);
         Debug.Log("speedEnemigo "+speedEnemigo);
-        return primerturno;
-        
+        return primerturno;  
     }
     public void switchAttack(string attack)
     {
@@ -95,9 +92,10 @@ public class Combate : MonoBehaviour
     }
     public void newAtack(string attack)
     {
+        atackTipe = attack;
         float defensaE = DefToDR(GameManager.instance.GetEnemigo().defensaEne);
         Debug.Log("Entro newAttack");
-
+        GameManager.instance.SetBotonesCombat(false);
         if (primerTurno())
         {
             Debug.Log("primerTurno "+primerTurno());
@@ -106,6 +104,7 @@ public class Combate : MonoBehaviour
             {
                 Debug.Log("newEnemiAttack");
                 StartCoroutine(Wait(2, "enemigo"));
+                StartCoroutine(Wait(2.1f, "enTurn"));
             }
             else if (GameManager.instance.GetEnemigo().EnemigoVidaActual() < 0)
                 StartCoroutine(Wait(2, "enemigoDead"));
@@ -116,14 +115,15 @@ public class Combate : MonoBehaviour
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
                 Debug.Log("newEnemiAttack");
-                StartCoroutine(Wait(2, "enemigo"));
+                StartCoroutine(Wait(0.1f, "enemigo"));
+                StartCoroutine(Wait(2.1f, "enTurn"));
             }
             else if (GameManager.instance.GetEnemigo().EnemigoVidaActual() < 0)
                 StartCoroutine(Wait(2, "enemigoDead"));
-            switchAttack(attack);
+            StartCoroutine(Wait(2, "player"));
         }
     }
-    public IEnumerator Wait(int seconds, string comand)
+    public IEnumerator Wait(float seconds, string comand)
     {
         //Debug.Log("Wait");
         yield return new WaitForSeconds(seconds);
@@ -155,7 +155,6 @@ public class Combate : MonoBehaviour
         //Debug.Log("VIDA Actual Jugador: " + GameManager.instance.GetPlayer().GetVidaActual());
         if (GameManager.instance.GetPlayer().GetVidaActual() <= 0)
             StartCoroutine(Wait(2, "playerDead"));
-        botones.ActivarBotones(true);
     }
     public void endCombat(bool win)
     {
@@ -197,6 +196,15 @@ public class Combate : MonoBehaviour
                 break;
             case "enemigo":
                 newEnemiAtack();
+                break;
+            case "fondo":
+                fondoDecider();
+                break;
+            case "enTurn":
+                GameManager.instance.SetBotonesCombat(true);
+                break;
+            case "player":
+                switchAttack(atackTipe);
                 break;
         }
     }

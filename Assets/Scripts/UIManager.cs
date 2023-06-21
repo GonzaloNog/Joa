@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
     public void ActivarCombate(bool com)
     {
         combate.gameObject.SetActive(com);
+        //GameManager.instance.GetCombate().fondoDecider();
     }
     public void ChangeBackgroundRandom()
     {
