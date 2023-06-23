@@ -35,7 +35,7 @@ public class Combate : MonoBehaviour
     }
     public void fondoDecider()
     {
-        Debug.Log("Entro fondoDecider");
+        //Debug.Log("Entro fondoDecider");
         IdFondo = UnityEngine.Random.Range(0, 2);
         exitAnim = false;
         UpdateAnim(IdFondo, exitAnim);
@@ -66,8 +66,8 @@ public class Combate : MonoBehaviour
         {
             primerturno = false;
         }
-        Debug.Log("speedJugador "+speedJugador);
-        Debug.Log("speedEnemigo "+speedEnemigo);
+        //Debug.Log("speedJugador "+speedJugador);
+        //Debug.Log("speedEnemigo "+speedEnemigo);
         return primerturno;  
     }
     public void switchAttack(string attack)
@@ -92,17 +92,19 @@ public class Combate : MonoBehaviour
     }
     public void newAtack(string attack)
     {
+        GameManager.instance.GetPlayer().RestartIdleAnim();
         atackTipe = attack;
         float defensaE = DefToDR(GameManager.instance.GetEnemigo().defensaEne);
-        Debug.Log("Entro newAttack");
+        //Debug.Log("Entro newAttack");
         GameManager.instance.SetBotonesCombat(false);
+        GameManager.instance.GetPlayer().turn = primerTurno();
         if (primerTurno())
         {
-            Debug.Log("primerTurno "+primerTurno());
+            //Log("primerTurno "+primerTurno());
             switchAttack(attack);
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
-                Debug.Log("newEnemiAttack");
+                //Debug.Log("newEnemiAttack");
                 StartCoroutine(Wait(2, "enemigo"));
                 StartCoroutine(Wait(2.1f, "enTurn"));
             }
@@ -111,10 +113,10 @@ public class Combate : MonoBehaviour
         }
         else if (primerTurno() == false)
         {
-            Debug.Log("primerTurno " + primerTurno());
+            //Debug.Log("primerTurno " + primerTurno());
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
-                Debug.Log("newEnemiAttack");
+                //Debug.Log("newEnemiAttack");
                 StartCoroutine(Wait(0.1f, "enemigo"));
                 StartCoroutine(Wait(2.1f, "enTurn"));
             }
@@ -185,7 +187,7 @@ public class Combate : MonoBehaviour
 
     public void timeComands(string comand)
     {
-        Debug.Log("timeComands" + comand);
+        //Debug.Log("timeComands" + comand);
         switch (comand)
         {
             case "enemigoDead":

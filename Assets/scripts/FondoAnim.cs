@@ -13,11 +13,11 @@ public class FondoAnim : MonoBehaviour
     {
         if (anim != null)
         {
-            Debug.Log("UpdateAnim FondoAnim IdFondo: "+anim.GetInteger("IdFondo"));
+            //Debug.Log("UpdateAnim FondoAnim IdFondo: "+anim.GetInteger("IdFondo"));
             anim.SetInteger("IdFondo", IdFondo);
             anim.SetBool("exitAnim", exitAnim);
         }
-        else
-            Debug.Log("animeitor nulo");
+        //else
+            //Debug.Log("animeitor nulo");
     }
 }

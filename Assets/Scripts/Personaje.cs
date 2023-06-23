@@ -13,7 +13,7 @@ public class Personaje : MonoBehaviour
     public float fuerza = 170;
     public float speed = 20;
     public bool live = true;
-
+    public bool turn = false;
     //ataque = 0
     //golpe recibido = 1
     //idle 2 = 2
@@ -59,7 +59,10 @@ public class Personaje : MonoBehaviour
         if (_changeVida < 0)
         {
             animacion = 1;
-            StartCoroutine(AnimatorChange(2));
+            if (turn)
+                StartCoroutine(AnimatorChange(2, true));
+            else
+                StartCoroutine(AnimatorChange(2, false));
         }
         if (vidaActual > vidaMaxima)
         {
@@ -128,13 +131,19 @@ public class Personaje : MonoBehaviour
     public float NormalAttack()
     {
         animacion = 0;
-        StartCoroutine(AnimatorChange(1));
+        if(turn)
+            StartCoroutine(AnimatorChange(1, false));
+        else
+            StartCoroutine(AnimatorChange(1, true));
         return fuerza + fuerzaBuff + fuerzaEquip;
     }
     public float MagicAttack()
     {
         animacion = 0;
-        StartCoroutine(AnimatorChange(1));
+        if (turn)
+            StartCoroutine(AnimatorChange(1, false));
+        else
+            StartCoroutine(AnimatorChange(1, true));
         return inteligencia + inteligenciaBuff + inteligenciaEquip;
     }
     public float GetVidaActual()
@@ -145,11 +154,18 @@ public class Personaje : MonoBehaviour
     {
         anim.UpdateAnim(animacion);
     }
-    public IEnumerator AnimatorChange(int seconds)
+    public void RestartIdleAnim()
+    {
+        anim.RestartTimeIdle();
+    }
+    public IEnumerator AnimatorChange(int seconds, bool idle)
     {
         UpdateAnim();
         yield return new WaitForSeconds(seconds);
-        animacion = -1;
-        UpdateAnim();
+        if (idle)
+        {
+            animacion = -1;
+            UpdateAnim();
+        }
     }
 }
