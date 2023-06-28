@@ -60,9 +60,9 @@ public class Personaje : MonoBehaviour
         {
             animacion = 1;
             if (turn)
-                StartCoroutine(AnimatorChange(2, true));
+                StartCoroutine(AnimatorChange(1.017f, true));
             else
-                StartCoroutine(AnimatorChange(2, false));
+                StartCoroutine(AnimatorChange(1.017f, false));
         }
         if (vidaActual > vidaMaxima)
         {
@@ -132,18 +132,18 @@ public class Personaje : MonoBehaviour
     {
         animacion = 0;
         if(turn)
-            StartCoroutine(AnimatorChange(1, false));
+            StartCoroutine(AnimatorChange(0.867f, false));
         else
-            StartCoroutine(AnimatorChange(1, true));
+            StartCoroutine(AnimatorChange(0.867f, true));
         return fuerza + fuerzaBuff + fuerzaEquip;
     }
     public float MagicAttack()
     {
         animacion = 0;
         if (turn)
-            StartCoroutine(AnimatorChange(1, false));
+            StartCoroutine(AnimatorChange(0.867f, false));
         else
-            StartCoroutine(AnimatorChange(1, true));
+            StartCoroutine(AnimatorChange(0.867f, true));
         return inteligencia + inteligenciaBuff + inteligenciaEquip;
     }
     public float GetVidaActual()
@@ -158,10 +158,11 @@ public class Personaje : MonoBehaviour
     {
         anim.RestartTimeIdle();
     }
-    public IEnumerator AnimatorChange(int seconds, bool idle)
+    public IEnumerator AnimatorChange(double seconds, bool idle)
     {
         UpdateAnim();
-        yield return new WaitForSeconds(seconds);
+        float seconds2 = (float) seconds;
+        yield return new WaitForSeconds(seconds2);
         if (idle)
         {
             animacion = -1;

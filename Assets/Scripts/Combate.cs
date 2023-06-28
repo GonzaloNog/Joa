@@ -105,11 +105,11 @@ public class Combate : MonoBehaviour
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
                 //Debug.Log("newEnemiAttack");
-                StartCoroutine(Wait(2, "enemigo"));
-                StartCoroutine(Wait(2.1f, "enTurn"));
+                StartCoroutine(Wait(1.017f, "enemigo"));
+                StartCoroutine(Wait(1.017f, "enTurn"));
             }
             else if (GameManager.instance.GetEnemigo().EnemigoVidaActual() < 0)
-                StartCoroutine(Wait(2, "enemigoDead"));
+                StartCoroutine(Wait(0.767f, "enemigoDead"));
         }
         else if (primerTurno() == false)
         {
@@ -117,12 +117,12 @@ public class Combate : MonoBehaviour
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
                 //Debug.Log("newEnemiAttack");
-                StartCoroutine(Wait(0.1f, "enemigo"));
-                StartCoroutine(Wait(2.1f, "enTurn"));
+                StartCoroutine(Wait(1.017f, "enemigo"));
+                StartCoroutine(Wait(1.017f, "enTurn"));
             }
             else if (GameManager.instance.GetEnemigo().EnemigoVidaActual() < 0)
-                StartCoroutine(Wait(2, "enemigoDead"));
-            StartCoroutine(Wait(2, "player"));
+                StartCoroutine(Wait(1.017f, "enemigoDead"));
+            StartCoroutine(Wait(1.017f, "player"));
         }
     }
     public IEnumerator Wait(float seconds, string comand)
