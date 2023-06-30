@@ -13,7 +13,6 @@ public class JugadorAnim : MonoBehaviour
     }
     private void Update()
     {
-        print(time);
         time -= Time.deltaTime;
         if(time <= 0)
         {

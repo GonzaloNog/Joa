@@ -13,12 +13,12 @@ public class Test : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            //Debug.Log("NUEVO ENEMIGO: " + GameManager.instance.GetCombate().GetNewEnemy());
+            GameManager.instance.GetSpawnOBJ().newSpawn(0,0);
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
             //Debug.Log("Tecla D- GetPlayer.MagicAttack");
-            GameManager.instance.GetPlayer().MagicAttack();
+            GameManager.instance.GetSpawnOBJ().newSpawn(1, 1);
         }
         if (Input.GetKeyDown(KeyCode.Q))
         {

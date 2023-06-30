@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour
     public GameObject combate;
     public GameObject endGame;
     public GameObject botones;
+    public GameObject menuEstadisticas;
     private void Start()
     {
         itemsSubMenu.SetActive(false);
@@ -22,6 +23,7 @@ public class UIManager : MonoBehaviour
     public void ActivarCombate(bool com)
     {
         combate.gameObject.SetActive(com);
+        ActivarBotones(com);
         //GameManager.instance.GetCombate().fondoDecider();
     }
     public void ChangeBackgroundRandom()
@@ -79,5 +81,10 @@ public class UIManager : MonoBehaviour
     public void ActivarBotones(bool bot)
     {
         botones.SetActive(bot);
+    }
+
+    public void SetMenuEstadisticas(bool con)
+    {
+        menuEstadisticas.SetActive(con);
     }
 }

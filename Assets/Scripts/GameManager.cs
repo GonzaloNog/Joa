@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public UIManager UI;
     public Combate comb;
     public FondoAnim fondoanim;
+    public spawnOBJ spawn;
     public int nivelActual = 1;
     public bool changelevel = false;
     public int finishLevel = 0;
@@ -28,7 +29,10 @@ public class GameManager : MonoBehaviour
 
         //DontDestroyOnLoad(this);
     }
-    
+    public void Start()
+    {
+        GameManager.instance.GetCombate().newCombat();
+    }
     public Background GetBackground()
     {
         return fondo;
@@ -47,8 +51,11 @@ public class GameManager : MonoBehaviour
     }
     public FondoAnim GetFondoAnim()
     {
-        Debug.Log("Entro GameManager: GetFondoAnim");
         return fondoanim;
+    }
+    public spawnOBJ GetSpawnOBJ()
+    {
+        return spawn;
     }
     public void NextLevel()
     {

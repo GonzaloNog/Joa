@@ -89,6 +89,10 @@ public class Combate : MonoBehaviour
                 //Debug.Log("Daño Mag Jug:" + dañoFinal_m);
                 break;
         }
+        if (GameManager.instance.GetEnemigo().EnemigoVidaActual() <= 0)
+        {
+            StartCoroutine(Wait(0.767f, "enemigoDead"));
+        }
     }
     public void newAtack(string attack)
     {
@@ -102,26 +106,24 @@ public class Combate : MonoBehaviour
         {
             //Log("primerTurno "+primerTurno());
             switchAttack(attack);
+            Debug.Log(GameManager.instance.GetEnemigo().EnemigoVidaActual());
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
                 //Debug.Log("newEnemiAttack");
                 StartCoroutine(Wait(1.017f, "enemigo"));
-                StartCoroutine(Wait(1.017f, "enTurn"));
-            }
-            else if (GameManager.instance.GetEnemigo().EnemigoVidaActual() < 0)
-                StartCoroutine(Wait(0.767f, "enemigoDead"));
+                StartCoroutine(Wait(2.017f, "enTurn"));
+            };
         }
-        else if (primerTurno() == false)
+        else
         {
             //Debug.Log("primerTurno " + primerTurno());
+            Debug.Log(GameManager.instance.GetEnemigo().EnemigoVidaActual());
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
                 //Debug.Log("newEnemiAttack");
-                StartCoroutine(Wait(1.017f, "enemigo"));
-                StartCoroutine(Wait(1.017f, "enTurn"));
+                StartCoroutine(Wait(0.01f, "enemigo"));
+                StartCoroutine(Wait(2.017f, "enTurn"));
             }
-            else if (GameManager.instance.GetEnemigo().EnemigoVidaActual() < 0)
-                StartCoroutine(Wait(1.017f, "enemigoDead"));
             StartCoroutine(Wait(1.017f, "player"));
         }
     }
@@ -160,6 +162,7 @@ public class Combate : MonoBehaviour
     }
     public void endCombat(bool win)
     {
+        Debug.Log("EndCombat");
         exitAnim = true;
         GameManager.instance.GetFondoAnim().UpdateAnim(0,exitAnim);
         if(win)

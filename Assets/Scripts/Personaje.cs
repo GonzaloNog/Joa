@@ -7,7 +7,7 @@ public class Personaje : MonoBehaviour
 {
     public JugadorAnim anim;
     //Estadisticas
-    public float vidaMaxima = 300;
+    public float vidaMaxima = 3;
     public float defensa = 90;
     public float inteligencia = 220;
     public float fuerza = 170;
@@ -110,10 +110,10 @@ public class Personaje : MonoBehaviour
                     defensa = defensa + (cantidad * 10);
                     break;
                 case "inteligencia":
-                    inteligencia = inteligencia + (cantidad * 10);
+                    inteligencia = inteligencia + (cantidad * 3);
                     break;
                 case "fuerza":
-                    fuerza = fuerza + (cantidad * 10);
+                    fuerza = fuerza + (cantidad * 3);
                     break;
                 case "speed":
                     speed = speed + (cantidad * 10);
@@ -168,5 +168,10 @@ public class Personaje : MonoBehaviour
             animacion = -1;
             UpdateAnim();
         }
+    }
+
+    public int GetPoints()
+    {
+        return puntos;
     }
 }
