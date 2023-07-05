@@ -7,16 +7,14 @@ public class Obj : MonoBehaviour
     public Sprite cofre;
     public Sprite libro;
 
-    private SpriteRenderer ren;
     private string nameOBJ;
-    void Start()
-    {
-        ren = GetComponent<SpriteRenderer>();
-    }
+
     public void StartOBJ(string _name)
     {
+        Debug.Log("spawnOBJ");
+        SpriteRenderer ren = GetComponent<SpriteRenderer>();
         nameOBJ = _name;
-        switch (name)
+        switch(nameOBJ)
         {
             case "cofre":
                 ren.sprite = cofre;
@@ -28,6 +26,23 @@ public class Obj : MonoBehaviour
     }
     public void OpenOBJ()
     {
+        switch(nameOBJ)
+        {
+            case "cofre":
+                GameManager.instance.GetPlayer().ChangeVida(10);
+                break;
+            case "libro":
+                GameManager.instance.GetPlayer().ChangeExp(30);
+                break;
+            default:
+                Debug.Log("null");
+                break;
+        }
+    }
 
+    private void OnMouseDown()
+    {
+        OpenOBJ();
+        Destroy(gameObject);
     }
 }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 338875510600981410}
   - component: {fileID: 338875510600981421}
   - component: {fileID: 338875510600981420}
+  - component: {fileID: 3321481815418765778}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -99,3 +100,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cofre: {fileID: 21300000, guid: 7b0bba6a9b6960a4fb500a75d4a4caa0, type: 3}
   libro: {fileID: 21300000, guid: ec23e33668eecff4aaec16f735dcc204, type: 3}
+--- !u!61 &3321481815418765778
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338875510600981423}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0017466545, y: -0.0014409423}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9965067, y: 0.9970702}
+  m_EdgeRadius: 0

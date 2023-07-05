@@ -85,7 +85,7 @@ public class UIManager : MonoBehaviour
 
     public void SetMenuEstadisticas(bool con)
     {
-        if (GameManager.instance.GetCombate().GetinCombat())
+        if (!GameManager.instance.GetCombate().GetinCombat())
             menuEstadisticas.SetActive(con);
     }
 }

@@ -6945,7 +6945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 89051269}
-  vidaMaxima: 50
+  vidaMaxima: 30
   defensa: 90
   inteligencia: 10
   fuerza: 50

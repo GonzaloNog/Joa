@@ -100,6 +100,7 @@ public class GameManager : MonoBehaviour
             changelevel = false;
             comb.newCombat();
         }
+
     }
     public void WinGame()
     {
