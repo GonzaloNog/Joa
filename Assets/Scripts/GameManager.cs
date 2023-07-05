@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public FondoAnim fondoanim;
     public spawnOBJ spawn;
     public int nivelActual = 1;
-    public bool changelevel = false;
+    public bool changelevel = true;
     public int finishLevel = 0;
     private bool mitadDeCamino = false;
 
@@ -31,7 +31,8 @@ public class GameManager : MonoBehaviour
     }
     public void Start()
     {
-        GameManager.instance.GetCombate().newCombat();
+        changelevel = true;
+       // GameManager.instance.GetCombate().newCombat();
     }
     public Background GetBackground()
     {

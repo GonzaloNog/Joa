@@ -6,35 +6,27 @@ using UnityEngine;
 public class Personaje : MonoBehaviour
 {
     public JugadorAnim anim;
-    //Estadisticas
-    public float vidaMaxima = 3;
-    public float defensa = 90;
-    public float inteligencia = 220;
-    public float fuerza = 170;
-    public float speed = 20;
+    public float vidaMaxima = 70;
+    public float defensa = 10;
+    public float inteligencia = 50;
+    public float fuerza = 50;
+    public float speed = 10;
     public bool live = true;
     public bool turn = false;
-    //ataque = 0
-    //golpe recibido = 1
-    //idle 2 = 2
     int animacion = 0;
 
     /*Estadisticas Buff
     private float vidaMaximaBuff = 0;
     private float defensaBuff = 0;
     private float speedBuff = 0;
-
     //Estadisticas equipo
     private float vidaMaximaEquip = 0;
     private float defensaEquip = 0;
     private float speedEquipo = 0;*/
-
     private float inteligenciaBuff = 0;
     private float fuerzaBuff = 0;
     private float inteligenciaEquip = 0;
     private float fuerzaEquip = 0;
-
-    //exp
     private int exp = 0;
     private int nextLevelExp = 100;
     private int level = 0;

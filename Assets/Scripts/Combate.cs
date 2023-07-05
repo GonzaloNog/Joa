@@ -36,7 +36,19 @@ public class Combate : MonoBehaviour
     public void fondoDecider()
     {
         //Debug.Log("Entro fondoDecider");
-        IdFondo = UnityEngine.Random.Range(0, 2);
+        IdFondo = UnityEngine.Random.Range(0,100);
+        if (IdFondo >= 0 && IdFondo < 33)
+        {
+            IdFondo = 0;
+        }
+        if (IdFondo >= 33 && IdFondo < 66)
+        {
+            IdFondo = 1;
+        }
+        if (IdFondo >= 66)
+        {
+            IdFondo = 2;
+        }
         exitAnim = false;
         UpdateAnim(IdFondo, exitAnim);
     }
@@ -164,7 +176,7 @@ public class Combate : MonoBehaviour
     {
         Debug.Log("EndCombat");
         exitAnim = true;
-        GameManager.instance.GetFondoAnim().UpdateAnim(0,exitAnim);
+        GameManager.instance.GetFondoAnim().UpdateAnim(-1,exitAnim);
         if(win)
         {
             GameManager.instance.changelevel = true;

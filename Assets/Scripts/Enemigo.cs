@@ -27,7 +27,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 5;
                 inteligenciaEne = 5;
                 fuerzaEne = 10;
-                speed = 120;
+                speed = 20;
                 expEne = 50;
                 nameEne = "slime";
                 enemigoID = 0;
@@ -37,7 +37,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 7;
                 inteligenciaEne = 7;
                 fuerzaEne = 20;
-                speed = 120;
+                speed = 20;
                 expEne = 100;
                 nameEne = "rat";
                 enemigoID = 1;
@@ -47,7 +47,7 @@ public class Enemigo : MonoBehaviour
                 defensaEne = 11;
                 inteligenciaEne = 13;
                 fuerzaEne = 25;
-                speed = 125;
+                speed = 25;
                 expEne = 150;
                 nameEne = "worm";
                 enemigoID = 2;

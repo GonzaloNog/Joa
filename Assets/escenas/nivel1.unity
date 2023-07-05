@@ -4504,7 +4504,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1752244244}
   m_Father: {fileID: 1685847523}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7698,13 +7699,31 @@ MonoBehaviour:
   IdFondo: 0
   exitAnim: 0
   enemigos:
+  - enemigos: []
   - enemigos:
     - slime
+    - slime
     - rat
+  - enemigos:
+    - rat
+    - slime
     - worm
   - enemigos:
-    - spider
+    - worm
     - wolf
+    - boneworm
+  - enemigos:
+    - bonrworm
+    - scorpion
+    - spider
+  - enemigos:
+    - spider
+    - scorpion
+    - spider
+  - enemigos:
+    - cerberus
+  - enemigos:
+    - boss
 --- !u!1 &1687723025
 GameObject:
   m_ObjectHideFlags: 0
@@ -7816,6 +7835,42 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 426.5072, y: -623.12305}
   m_SizeDelta: {x: 583.6696, y: 67.0931}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1752244243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1752244244}
+  m_Layer: 5
+  m_Name: Square
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1752244244
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752244243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 948672048}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -34, y: -36.6}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1752541300
 GameObject:
