@@ -174,6 +174,7 @@ public class Combate : MonoBehaviour
     }
     public void endCombat(bool win)
     {
+        inCombat = false;
         Debug.Log("EndCombat");
         exitAnim = true;
         GameManager.instance.GetFondoAnim().UpdateAnim(-1,exitAnim);

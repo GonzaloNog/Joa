@@ -11,7 +11,8 @@ public class UIManager : MonoBehaviour
     public Slider vida;
     public Slider vidaEnemigo;
     public TextMeshProUGUI enemiName;
-    public TextMeshProUGUI textoObjetos;
+    public TextMeshProUGUI nivelUI;
+    private TextMeshProUGUI textoObjetos;
     public GameObject itemsSubMenu;
     public GameObject combate;
     public GameObject endGame;
@@ -20,6 +21,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         itemsSubMenu.SetActive(false);
+        UpdateLevelUI();
     }
     private void TextoObjetos()
     {
@@ -81,10 +83,12 @@ public class UIManager : MonoBehaviour
     }
     public void NewLevel()
     {
-        //GameManager.instance.NewLevel();
-        int point = Random.Range(0, GameManager.instance.GetSpawnOBJ().points.Length);
-        int obj = Random.Range(0, GameManager.instance.GetSpawnOBJ().prefads.Length);
-        GameManager.instance.GetSpawnOBJ().newSpawn(point, obj);
+        if (!GameManager.instance.NewLevel())
+        {
+            int point = Random.Range(0, GameManager.instance.GetSpawnOBJ().points.Length);
+            int obj = Random.Range(0, GameManager.instance.GetSpawnOBJ().prefads.Length);
+            GameManager.instance.GetSpawnOBJ().newSpawn(point, obj);
+        }
     }
     public void ActivarBotones(bool bot)
     {
@@ -94,6 +98,13 @@ public class UIManager : MonoBehaviour
     public void SetMenuEstadisticas(bool con)
     {
         if (!GameManager.instance.GetCombate().GetinCombat())
+        {
             menuEstadisticas.SetActive(con);
+            menuEstadisticas.GetComponent<MenuEstadisticas>().Open();
+        }
+    }
+    public void UpdateLevelUI()
+    {
+        nivelUI.text = GameManager.instance.nivelActual.ToString();
     }
 }

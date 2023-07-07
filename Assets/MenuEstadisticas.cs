@@ -16,6 +16,10 @@ public class MenuEstadisticas : MonoBehaviour
         SetPlayerEst();
     }
 
+    public void Open()
+    {
+        SetPlayerEst();
+    }
     public void UpdateEst(string plus)
     {
         if(GameManager.instance.GetPlayer().GetPoints() > 0)

@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
     public Combate comb;
     public FondoAnim fondoanim;
     public spawnOBJ spawn;
-    public Obj obj;
     public int nivelActual = 1;
     public bool changelevel = true;
     public int finishLevel = 0;
@@ -83,7 +82,7 @@ public class GameManager : MonoBehaviour
     {
         UI.ActivarBotones(boot);
     }
-    public void NewLevel()
+    public bool NewLevel()
     {
         if (nivelActual == finishLevel)
         {
@@ -100,8 +99,9 @@ public class GameManager : MonoBehaviour
                 nivelActual--;
             changelevel = false;
             comb.newCombat();
+            UI.UpdateLevelUI();
         }
-
+        return changelevel;
     }
     public void WinGame()
     {

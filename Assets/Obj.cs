@@ -12,8 +12,11 @@ public class Obj : MonoBehaviour
     private string nameOBJ;
     public GameObject textoObj;
     public TextMeshPro texto;
-    bool destroyTimer = false;
-    float timer = 0;
+
+    private bool destroyTimer = false;
+    private float timer = 0;
+    private bool efect = true;
+
     public void StartOBJ(string _name)
     {
         Debug.Log("spawnOBJ");
@@ -45,6 +48,7 @@ public class Obj : MonoBehaviour
         {
             case "cofre":
                 GameManager.instance.GetPlayer().ChangeVida(10);
+                StartText("Ganaste 10 de vida");
                 break;
             case "libro":
                 GameManager.instance.GetPlayer().ChangeExp(30);
@@ -75,8 +79,11 @@ public class Obj : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        OpenOBJ();
-        StartText("texto de muestra");
-        destroyTimer = true;
+        if (efect && GameManager.instance.changelevel)
+        {
+            OpenOBJ();
+            destroyTimer = true;
+            efect = false;
+        }
     }
 }
