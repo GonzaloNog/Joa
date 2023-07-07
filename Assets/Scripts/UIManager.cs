@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     public Slider vida;
     public Slider vidaEnemigo;
     public TextMeshProUGUI enemiName;
+    public TextMeshProUGUI textoObjetos;
     public GameObject itemsSubMenu;
     public GameObject combate;
     public GameObject endGame;
@@ -19,6 +20,10 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         itemsSubMenu.SetActive(false);
+    }
+    private void TextoObjetos()
+    {
+        //textoObjetos.isActiveAndEnabled = false;
     }
     public void ActivarCombate(bool com)
     {
@@ -76,7 +81,10 @@ public class UIManager : MonoBehaviour
     }
     public void NewLevel()
     {
-        GameManager.instance.NewLevel();
+        //GameManager.instance.NewLevel();
+        int point = Random.Range(0, GameManager.instance.GetSpawnOBJ().points.Length);
+        int obj = Random.Range(0, GameManager.instance.GetSpawnOBJ().prefads.Length);
+        GameManager.instance.GetSpawnOBJ().newSpawn(point, obj);
     }
     public void ActivarBotones(bool bot)
     {

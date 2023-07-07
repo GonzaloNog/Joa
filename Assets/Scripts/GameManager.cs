@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public Combate comb;
     public FondoAnim fondoanim;
     public spawnOBJ spawn;
+    public Obj obj;
     public int nivelActual = 1;
     public bool changelevel = true;
     public int finishLevel = 0;
