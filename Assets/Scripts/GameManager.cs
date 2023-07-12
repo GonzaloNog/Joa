@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public Combate comb;
     public FondoAnim fondoanim;
     public spawnOBJ spawn;
+    public AudioManager sfx;
     public int nivelActual = 1;
     public bool changelevel = true;
     public int finishLevel = 0;
@@ -57,6 +58,10 @@ public class GameManager : MonoBehaviour
     public spawnOBJ GetSpawnOBJ()
     {
         return spawn;
+    }
+    public AudioManager GetAudioManager()
+    {
+        return sfx;
     }
     public void NextLevel()
     {
@@ -106,5 +111,9 @@ public class GameManager : MonoBehaviour
     public void WinGame()
     {
 
+    }
+    public void UpdateSound()
+    {
+        sfx.UpdateSound();
     }
 }

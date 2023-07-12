@@ -6,6 +6,7 @@ using UnityEngine;
 public class Personaje : MonoBehaviour
 {
     public JugadorAnim anim;
+    private AudioSource aud;
     public float vidaMaxima = 70;
     public float defensa = 10;
     public float inteligencia = 50;
@@ -41,6 +42,7 @@ public class Personaje : MonoBehaviour
     private void Start()
     {
         GameManager.instance.ChangeVidaPLayer();
+        aud = GetComponent<AudioSource>();
     }
 
     public bool ChangeVida(float _changeVida)
@@ -122,6 +124,8 @@ public class Personaje : MonoBehaviour
     }
     public float NormalAttack()
     {
+        aud.clip = GameManager.instance.GetAudioManager().GetEfectSound("shoot");
+        aud.Play();
         animacion = 0;
         if(turn)
             StartCoroutine(AnimatorChange(0.867f, false));
