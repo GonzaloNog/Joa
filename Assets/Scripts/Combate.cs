@@ -94,10 +94,16 @@ public class Combate : MonoBehaviour
                 //toggleBotones(false);
                 //Debug.Log("Daño Fis Jug:" + dañoFinal_f);
                 break;
-            case "ataqueMagico":
-                float daño_m = GameManager.instance.GetPlayer().MagicAttack();
-                float dañoFinal_m = (daño_m * defensaE);
+            case "fire":
+                float daño_m = GameManager.instance.GetPlayer().MagicAttack("fire");
+                float dañoFinal_m = (daño_m * defensaE + GameManager.instance.GetPlayer().speall[0]);
                 GameManager.instance.GetEnemigo().ChangeVida(-dañoFinal_m);
+                //Debug.Log("Daño Mag Jug:" + dañoFinal_m);
+                break;
+            case "water":
+                float daño_m2 = GameManager.instance.GetPlayer().MagicAttack("water");
+                float dañoFinal_m2 = (daño_m2 * defensaE + GameManager.instance.GetPlayer().speall[1]);
+                GameManager.instance.GetEnemigo().ChangeVida(-dañoFinal_m2);
                 //Debug.Log("Daño Mag Jug:" + dañoFinal_m);
                 break;
         }

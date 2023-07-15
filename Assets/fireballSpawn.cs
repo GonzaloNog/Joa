@@ -12,7 +12,6 @@ public class fireballSpawn : MonoBehaviour
     public void Spawn()
     {
         fireball instance = Instantiate(prefab, spawn.position, spawn.rotation);
-        instance.StartFireBall(_target);
         //temp = Instantiate(prefab, spawn.position, spawn.rotation);
         //temp.StartFireBall();
     }

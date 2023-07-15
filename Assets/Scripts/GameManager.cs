@@ -12,8 +12,6 @@ public class GameManager : MonoBehaviour
     public Combate comb;
     public FondoAnim fondoanim;
     public spawnOBJ spawn;
-    public fireball fireball;
-    public fireballSpawn firebalspawn;
     public AudioManager sfx;
     public int nivelActual = 1;
     public bool changelevel = true;
@@ -65,12 +63,6 @@ public class GameManager : MonoBehaviour
     {
         return sfx;
     }
-    public fireballSpawn GetFireballSpawn()
-    {
-        return firebalspawn;
-    }
-    public fireball GetFireball()
-    { return fireball; }
     public void NextLevel()
     {
         level++;

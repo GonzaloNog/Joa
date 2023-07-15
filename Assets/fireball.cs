@@ -5,36 +5,29 @@ using UnityEngine;
 
 public class fireball : MonoBehaviour
 {
-    private Transform target;
-    private bool destroyTimer;
-    private float timer;
-    public AnimationClip destroy; 
+  
     private Animator anim;
-    [SerializeField] private float speed = 1.5f;
-    public void StartFireBall(Transform _target)
+    public void Start()
     {
         anim = GetComponent<Animator>();
-        target = _target;
-        transform.position = Vector2.MoveTowards(target.transform.position, target.transform.position, speed * Time.deltaTime);
+        Fireball();
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Fireball()
     {
-        UpdateAnim();
+        anim.SetBool("boom",true);
+        StartCoroutine(Wait(0.1f));
     }
-    private void UpdateAnim()
+    public void WaterBall()
     {
-        anim.SetBool("destroy", true);
-        destroyTimer = true;
+
+        StartCoroutine(Wait(0.1f));
     }
-    private void Update()
+
+
+    public IEnumerator Wait(float seconds)
     {
-        if (destroyTimer)
-        {
-            timer += Time.deltaTime;
-            if (timer >= destroy.length)
-            {
-                Destroy(gameObject);
-            }
-        }
+        //Debug.Log("Wait");
+        yield return new WaitForSeconds(seconds);
+        anim.SetBool("boom", false);
     }
 }

@@ -14,6 +14,7 @@ public class Personaje : MonoBehaviour
     public float speed = 10;
     public bool live = true;
     public bool turn = false;
+    public float[] speall;
     int animacion = 0;
 
     /*Estadisticas Buff
@@ -35,6 +36,9 @@ public class Personaje : MonoBehaviour
 
     //Valores Actuales
     [SerializeField] private float vidaActual = 0;
+
+    //speel
+    public fireball spe;
     void Awake()
     {
         vidaActual = vidaMaxima;
@@ -133,8 +137,17 @@ public class Personaje : MonoBehaviour
             StartCoroutine(AnimatorChange(0.867f, true));
         return fuerza + fuerzaBuff + fuerzaEquip;
     }
-    public float MagicAttack()
+    public float MagicAttack(string speall)
     {
+        switch (speall)
+        {
+            case "fire":
+                spe.Fireball();
+                break;
+            default:
+                Debug.Log("Magia no registrada");
+                break;
+        }
         animacion = 0;
         if (turn)
             StartCoroutine(AnimatorChange(0.867f, false));

@@ -11,7 +11,7 @@ public class Test : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            GameManager.instance.GetFireballSpawn().Spawn();
+
             //Debug.Log("Tecla A");
         }
         if (Input.GetKeyDown(KeyCode.S))
