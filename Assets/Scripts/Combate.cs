@@ -135,7 +135,7 @@ public class Combate : MonoBehaviour
         else
         {
             //Debug.Log("primerTurno " + primerTurno());
-            Debug.Log(GameManager.instance.GetEnemigo().EnemigoVidaActual());
+            //Debug.Log(GameManager.instance.GetEnemigo().EnemigoVidaActual());
             if (GameManager.instance.GetEnemigo().EnemigoVidaActual() > 0)
             {
                 //Debug.Log("newEnemiAttack");
