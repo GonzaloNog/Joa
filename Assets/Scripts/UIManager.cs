@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI nivelUI;
     private TextMeshProUGUI textoObjetos;
     public GameObject itemsSubMenu;
+    public GameObject magiaSubmenu;
     public GameObject combate;
     public GameObject endGame;
     public GameObject botones;
@@ -46,8 +47,12 @@ public class UIManager : MonoBehaviour
     }
     public void AtaqueUI(string attack)
     {
-        Debug.Log("AtaqueUI: " + attack);
+        Debug.Log("AtaqueUI");
         GameManager.instance.GetCombate().newAtack(attack);
+    }
+    public void MagiaSubmenu()
+    {
+        magiaSubmenu.SetActive(!magiaSubmenu.activeSelf);
     }
     public void changeVisionItems()
     {

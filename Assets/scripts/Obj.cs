@@ -19,7 +19,6 @@ public class Obj : MonoBehaviour
 
     public void StartOBJ(string _name)
     {
-        Debug.Log("spawnOBJ");
         SpriteRenderer ren = GetComponent<SpriteRenderer>();
         textoObj.SetActive(false);
         nameOBJ = _name;
@@ -44,27 +43,40 @@ public class Obj : MonoBehaviour
     }
     public void OpenOBJ()
     {
+        float vidaActual_ = GameManager.instance.GetPlayer().vidaActual;
+        float vidaMaxima_ = GameManager.instance.GetPlayer().vidaMaxima;
+        float vidaFaltante = vidaMaxima_-vidaActual_;
         switch (nameOBJ)
         {
             case "cofre":
-                GameManager.instance.GetPlayer().ChangeVida(10);
+                int randomcofre = Random.Range(0,1);
+                if (randomcofre == 0)
+                {
+                    GameManager.instance.GetPlayer().ChangeVida(-(vidaFaltante/10));
+                }
+                else
+                {
+                GameManager.instance.GetPlayer().ChangeVida((vidaFaltante/5));
                 StartText("Ganaste 10 de vida");
+                }
                 break;
             case "libro":
-                GameManager.instance.GetPlayer().ChangeExp(30);
+                GameManager.instance.GetPlayer().ChangeExp(GameManager.instance.GetPlayer().nextLevelExp);
                 break;
             case "queso":
-                GameManager.instance.GetPlayer().ChangeVida(10);
+                GameManager.instance.GetPlayer().ChangeVida(vidaFaltante/10);
                 break;
             default:
                 Debug.Log("null");
                 break;
         }
     }
+
     void Update()
     {
         if (destroyTimer)
         {
+            print("timer" + timer);
             timer += Time.deltaTime;
             if (timer >= 3)
             {
@@ -79,6 +91,7 @@ public class Obj : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        print("OnMouseDown");
         if (efect && GameManager.instance.changelevel)
         {
             OpenOBJ();

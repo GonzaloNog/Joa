@@ -30,14 +30,13 @@ public class Personaje : MonoBehaviour
     private float inteligenciaEquip = 0;
     private float fuerzaEquip = 0;
     private int exp = 0;
-    private int nextLevelExp = 100;
+    public int nextLevelExp = 100;
     private int level = 0;
     private int puntos = 10;
 
-    //Valores Actuales
-    [SerializeField] private float vidaActual = 0;
+    public float vidaActual = 0;
 
-    //speel
+    //spell
     public fireball spe;
     void Awake()
     {
@@ -143,6 +142,12 @@ public class Personaje : MonoBehaviour
         {
             case "fire":
                 spe.Fireball();
+                break;
+            case"ice":
+                spe.Ice();
+                break;
+            case"light":
+                spe.Light();
                 break;
             default:
                 Debug.Log("Magia no registrada");
