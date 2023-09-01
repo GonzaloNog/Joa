@@ -16,7 +16,7 @@ public class Enemigo : MonoBehaviour
     public int speed = 0;
 
     private int enemigoID = 0;
-    private bool live = false;
+    private bool live = true;
 
     public void EstadisticasEnem(string enemigo)
     {
@@ -155,8 +155,8 @@ public class Enemigo : MonoBehaviour
     }
     public void restartEnemi(string nuevoEnemigo)
     {
-        EstadisticasEnem(nuevoEnemigo);
         live = true;
+        EstadisticasEnem(nuevoEnemigo);
     }
     public float EnemigoVidaActual()
     {

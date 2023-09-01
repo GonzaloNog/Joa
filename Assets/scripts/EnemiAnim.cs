@@ -5,12 +5,9 @@ using UnityEngine;
 public class EnemiAnim : MonoBehaviour
 {
     private Animator anim;
-    void Start()
-    {
-        anim = GetComponent<Animator>();
-    }
     public void UpdateAnim(bool live, int id)
     {
+        anim = GetComponent<Animator>();
         anim.SetInteger("EnemigoID", id);
         anim.SetBool("live", live);
     }

@@ -153,7 +153,7 @@ AnimatorStateMachine:
     m_Position: {x: -380, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8656264721303051667}
-    m_Position: {x: -345, y: 115, z: 0}
+    m_Position: {x: -510, y: 120, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -380,7 +380,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
+  - m_ConditionMode: 6
     m_ConditionEvent: EnemigoID
     m_EventTreshold: 8
   - m_ConditionMode: 1

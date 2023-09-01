@@ -28,11 +28,13 @@ public class UIManager : MonoBehaviour
     {
         //textoObjetos.isActiveAndEnabled = false;
     }
+
     public void ActivarCombate(bool com)
     {
-        combate.gameObject.SetActive(com);
+        Debug.Log("HOLA" + com);
+        combate.SetActive(com);
         ActivarBotones(com);
-        //GameManager.instance.GetCombate().fondoDecider();
+        GameManager.instance.GetCombate().fondoDecider();
     }
     public void ChangeBackgroundRandom()
     {
