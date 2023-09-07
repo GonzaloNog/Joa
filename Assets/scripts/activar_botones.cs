@@ -8,7 +8,6 @@ public class activar_botones : MonoBehaviour
 
     public void ActivarBotones(bool asd)
     {
-        Debug.Log("Entro ActivarBotones");
         barracombate.SetActive(asd);
     }
 }

@@ -37,7 +37,6 @@ public class Obj : MonoBehaviour
     }
     public void StartText(string textod)
     {
-        Debug.Log("StartText "+ textod);
         textoObj.SetActive(true);
         texto.text = textod;
     }
@@ -80,7 +79,6 @@ public class Obj : MonoBehaviour
             timer += Time.deltaTime;
             if (timer >= 3)
             {
-                Debug.Log("Destroy");
                 Destroy(gameObject);
             }
         }
@@ -91,7 +89,6 @@ public class Obj : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        print("OnMouseDown");
         if (efect && GameManager.instance.changelevel)
         {
             OpenOBJ();

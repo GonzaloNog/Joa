@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     public GameObject combate;
     public GameObject endGame;
     public GameObject botones;
+    public GameObject ataque;
+    public GameObject escapar;
     public GameObject menuEstadisticas;
     private void Start()
     {
@@ -31,7 +33,6 @@ public class UIManager : MonoBehaviour
 
     public void ActivarCombate(bool com)
     {
-        Debug.Log("HOLA" + com);
         combate.SetActive(com);
         ActivarBotones(com);
         GameManager.instance.GetCombate().fondoDecider();
@@ -49,12 +50,13 @@ public class UIManager : MonoBehaviour
     }
     public void AtaqueUI(string attack)
     {
-        Debug.Log("AtaqueUI");
         GameManager.instance.GetCombate().newAtack(attack);
     }
     public void MagiaSubmenu()
     {
         magiaSubmenu.SetActive(!magiaSubmenu.activeSelf);
+        ataque.SetActive(!ataque.activeSelf);
+        escapar.SetActive(!escapar.activeSelf);
     }
     public void changeVisionItems()
     {
@@ -100,6 +102,10 @@ public class UIManager : MonoBehaviour
     public void ActivarBotones(bool bot)
     {
         botones.SetActive(bot);
+        
+        GameManager.instance.UI.magiaSubmenu.SetActive(false);
+        GameManager.instance.UI.ataque.SetActive(true);
+        GameManager.instance.UI.escapar.SetActive(true);
     }
 
     public void SetMenuEstadisticas(bool con)

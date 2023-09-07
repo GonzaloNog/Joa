@@ -92,6 +92,7 @@ public class GameManager : MonoBehaviour
         if (nivelActual == finishLevel)
         {
             mitadDeCamino = true;
+            print("mitadDeCamino = true; "+mitadDeCamino);
         }
         if (nivelActual == 1 && mitadDeCamino)
             WinGame();
@@ -101,7 +102,10 @@ public class GameManager : MonoBehaviour
             if (!mitadDeCamino)
                 nivelActual++;
             else
+            {
                 nivelActual--;
+                print("nivelActual--;");
+            }
             changelevel = false;
             comb.newCombat();
             UI.UpdateLevelUI();

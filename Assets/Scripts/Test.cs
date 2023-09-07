@@ -11,8 +11,6 @@ public class Test : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-
-            //Debug.Log("Tecla A");
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
@@ -20,18 +18,14 @@ public class Test : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
-            //Debug.Log("Tecla D- GetPlayer.MagicAttack");
             GameManager.instance.GetSpawnOBJ().newSpawn(1, 1);
         }
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            //Debug.Log("Tecla Q- GetEnemigo.NormalAttackEnem");
             GameManager.instance.GetEnemigo().UpdateAnim();
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            //Debug.Log("Tecla W- GetEnemigo.MagicAttackEnem");
-            //Debug.Log(GameManager.instance.GetEnemigo().MagicAttackEnem());
             GameManager.instance.GetEnemigo().MagicAttackEnem();
         }
 
