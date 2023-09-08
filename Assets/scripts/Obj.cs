@@ -12,11 +12,13 @@ public class Obj : MonoBehaviour
     private string nameOBJ;
     public GameObject textoObj;
     public TextMeshPro texto;
+    private Animator anim;
 
     private bool destroyTimer = false;
     private float timer = 0;
     private bool efect = true;
 
+    public AnimationClip clip;
     public void StartOBJ(string _name)
     {
         SpriteRenderer ren = GetComponent<SpriteRenderer>();
@@ -37,54 +39,79 @@ public class Obj : MonoBehaviour
     }
     public void StartText(string textod)
     {
+        anim = this.GetComponent<Animator>();
+        anim.SetBool("destroy",true);
         textoObj.SetActive(true);
         texto.text = textod;
+
     }
     public void OpenOBJ()
     {
         float vidaActual_ = GameManager.instance.GetPlayer().vidaActual;
         float vidaMaxima_ = GameManager.instance.GetPlayer().vidaMaxima;
+
         float vidaFaltante = vidaMaxima_-vidaActual_;
+
+        float factor;
+
+
         switch (nameOBJ)
         {
             case "cofre":
-                int randomcofre = Random.Range(0,1);
-                if (randomcofre == 0)
+                float randomcofre = Random.value;
+                if (randomcofre < 0.5f)
                 {
-                    GameManager.instance.GetPlayer().ChangeVida(-(vidaFaltante/10));
+                    factor = -(vidaActual_ / 3);
+                    GameManager.instance.GetPlayer().ChangeVida(factor);
+                    string textMalo = "Perdes " + Texto(factor) + " de vida";
+                    StartText(textMalo);
                 }
-                else
+                if (randomcofre > 0.5f)
                 {
-                GameManager.instance.GetPlayer().ChangeVida((vidaFaltante/5));
-                StartText("Ganaste 10 de vida");
+                    factor = (vidaFaltante / 1.5f);
+                    GameManager.instance.GetPlayer().ChangeVida(factor);
+                    string textBueno = "Recuperas " + Texto(factor) + " puntos de vida";
+                    StartText(textBueno);
                 }
                 break;
+
             case "libro":
-                GameManager.instance.GetPlayer().ChangeExp(GameManager.instance.GetPlayer().nextLevelExp);
+
+                factor = GameManager.instance.GetPlayer().nextLevelExp;
+                GameManager.instance.GetPlayer().ChangeExp((int)factor);
+                string textLibro = "Ganas " + Texto(factor) + " puntos de experiencia";
+                StartText(textLibro);
                 break;
+
             case "queso":
-                GameManager.instance.GetPlayer().ChangeVida(vidaFaltante/10);
-                break;
-            default:
-                Debug.Log("null");
+
+                factor = vidaFaltante / 10;
+                GameManager.instance.GetPlayer().ChangeVida(factor);
+                string textQueso = "Recuperas " + Texto(factor) + " puntos de vida";
+                StartText(textQueso);
                 break;
         }
     }
-
+    private string Texto(float factor)
+    {
+        if (factor<0)
+        {
+            factor *= -1;
+        }
+        int a = (int)factor;
+        string b = a.ToString();
+        string floatToString = b;
+        return floatToString;
+    }
     void Update()
     {
         if (destroyTimer)
         {
-            print("timer" + timer);
             timer += Time.deltaTime;
-            if (timer >= 3)
+            if (timer >= clip.length)
             {
                 Destroy(gameObject);
             }
-        }
-        else
-        {
-            timer = 0;
         }
     }
     private void OnMouseDown()

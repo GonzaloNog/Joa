@@ -26,7 +26,7 @@ public class Test : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            GameManager.instance.GetEnemigo().MagicAttackEnem();
+            GameManager.instance.GetSpawnOBJ().newSpawn(2, 2);
         }
 
     }
