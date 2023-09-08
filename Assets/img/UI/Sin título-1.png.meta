@@ -129,70 +129,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: a
+      name: cuadradoChico_Fino
       rect:
         serializedVersion: 2
-        x: 31
-        y: 2
-        width: 19
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e3aed1e60005724c868af23199c56ec
-      internalID: -459145563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: esquina
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 85
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fe9881b10a58324e8225cb0e7517c2c
-      internalID: 207594919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rectangulo_Chico
-      rect:
-        serializedVersion: 2
-        x: 50
+        x: 1
         y: 72
         width: 23
-        height: 12
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6212dd1e6e52911489c6d194e8e429d3
-      internalID: 2017507518
+      spriteID: e25c83a42780063438264d385d514586
+      internalID: -1721925058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cuadrado_Grande
+      name: rectanguloGrande_Fino
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 48
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b4727fa0bec074cad3282a986c7a91
+      internalID: 1931587240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuadradoGrande_Fino
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f2145453a872f43a23f41bdfe395be
+      internalID: 96133053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuadradoGrande_Grueso
       rect:
         serializedVersion: 2
         x: 51
@@ -200,20 +200,83 @@ TextureImporter:
         width: 46
         height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f33360b6853bbe448b30073871ac623
-      internalID: -1829194063
+      spriteID: 9bc67a86da71a8b4390ccae55d06b131
+      internalID: -815778902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cuadrado_Chico
+      name: rectanguloGrande_Grueso
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 48
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7376abba6d642fc4ca9e957707d7ab29
+      internalID: -1947476191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectanguloChico_Fino
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 72
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d1b8945ef77c94d8c8688baa8c6628
+      internalID: -338802539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectanguloChico_Grueso
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 72
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff7a97a57c1ab43bea4ab6e47011c6
+      internalID: -1710717261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuadradoChico_Grueso
       rect:
         serializedVersion: 2
         x: 74
@@ -221,86 +284,65 @@ TextureImporter:
         width: 23
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a074cb9833208a54a87c5ac96880a6a3
-      internalID: -1411501939
+      spriteID: bcfbcc35e8989724b806196926c8a339
+      internalID: -1488803604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fondo
+      name: esquina_Fino
       rect:
         serializedVersion: 2
-        x: 50
-        y: 85
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0c81c75a6cd89a46ac8a19000b282dd
-      internalID: -973170921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barra_0
-      rect:
-        serializedVersion: 2
-        x: 59
+        x: 25
         y: 85
         width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6539d14f8dab2743aa817a4095d9b99
+      internalID: -1446449292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barra_Fino
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 85
+        width: 4
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17531e3ac01bf14da4141eea66d6a32
-      internalID: 940683246
+      spriteID: 4ce72f1b3df203140811581b23b11a5d
+      internalID: 103916301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rectangulo_Grande
+      name: barra_Grueso
       rect:
         serializedVersion: 2
-        x: 51
-        y: 47
-        width: 46
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea06dcafe6e82454d94a46ce5f36b86a
-      internalID: 2024876449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barra_1
-      rect:
-        serializedVersion: 2
-        x: 59
+        x: 60
         y: 85
         width: 5
         height: 8
@@ -311,8 +353,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 849dcde10d9928a488b94772530a4c2f
-      internalID: 973928293
+      spriteID: 182fafe240948c449a0c99aaec30d976
+      internalID: 166300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esquina_Grueso
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f9e9740bd960b44b95ed870d96691b
+      internalID: 403920160
       vertices: []
       indices: 
       edges: []
@@ -328,23 +391,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Sin t\xEDtulo-1_10": 520315342
-      "Sin t\xEDtulo-1_11": -963579020
       "Sin t\xEDtulo-1_12": -125452815
       "Sin t\xEDtulo-1_13": -356474476
       "Sin t\xEDtulo-1_14": 1778086172
       "Sin t\xEDtulo-1_15": 87577163
       "Sin t\xEDtulo-1_16": 662750739
       "Sin t\xEDtulo-1_17": 1471677978
-      "Sin t\xEDtulo-1_8": -981760260
-      "Sin t\xEDtulo-1_9": -512422708
       a: -459145563
       barra_0: 940683246
       barra_1: 973928293
-      cuadrado_Chico: -1411501939
+      barra_Fino: -512422708
+      barra_Grueso: 520315342
+      cuadradoChico_Fino: -1721925058
+      cuadradoChico_Grueso: -1488803604
+      cuadradoGrande_Fino: 96133053
+      cuadradoGrande_Grueso: -815778902
       cuadrado_Grande: -1829194063
       esquina: 207594919
+      esquina_Fino: -981760260
+      esquina_Grueso: -963579020
       fondo: -973170921
+      rectanguloChico_Fino: -338802539
+      rectanguloChico_Grueso: -1710717261
+      rectanguloGrande_Fino: 1931587240
+      rectanguloGrande_Grueso: -1947476191
       rectangulo_Chico: 2017507518
       rectangulo_Grande: 2024876449
   spritePackingTag: 

@@ -9,7 +9,6 @@ public class UIManager : MonoBehaviour
 {
     public GameObject menu;
     public Slider vida;
-    public Slider vidaEnemigo;
     public TextMeshProUGUI enemiName;
     public TextMeshProUGUI nivelUI;
     private TextMeshProUGUI textoObjetos;
@@ -21,21 +20,47 @@ public class UIManager : MonoBehaviour
     public GameObject ataque;
     public GameObject escapar;
     public GameObject menuEstadisticas;
+    public GameObject win;
+    public GameObject barra;
+
+    public GameObject[] estadisticasNumeros;
     private void Start()
     {
-        itemsSubMenu.SetActive(false);
         UpdateLevelUI();
+    }
+    private void Update()
+    {
+    }
+    public void UIWin()
+    {
+        win.SetActive(!win.activeSelf);
+        nivelUI.gameObject.SetActive(!nivelUI.gameObject.activeSelf);
     }
     private void TextoObjetos()
     {
         //textoObjetos.isActiveAndEnabled = false;
     }
-
+    public void UpdatePuntosUI()
+    {
+        estadisticasNumeros[0].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().vidaMaxima.ToString();
+        estadisticasNumeros[1].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().fuerza.ToString();
+        estadisticasNumeros[2].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().inteligencia.ToString();
+        estadisticasNumeros[3].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().speed.ToString();
+        estadisticasNumeros[4].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().defensa.ToString();
+        estadisticasNumeros[5].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().GetPoints().ToString();
+    }
     public void ActivarCombate(bool com)
     {
         combate.SetActive(com);
         ActivarBotones(com);
+        barra.SetActive(false);
+        menuEstadisticas.SetActive(false);
+
         GameManager.instance.GetCombate().fondoDecider();
+    }
+    public void EndCombat()
+    {
+        barra.SetActive(true);
     }
     public void ChangeBackgroundRandom()
     {
@@ -72,16 +97,6 @@ public class UIManager : MonoBehaviour
         vida.maxValue = GameManager.instance.GetPlayer().vidaMaxima;
         vida.value = GameManager.instance.GetPlayer().GetVidaActual();
     }
-    public void UpdateVidaEnemigo()
-    {
-        if (GameManager.instance.GetCombate().GetinCombat())
-        {
-            vidaEnemigo.minValue = 0;
-            vidaEnemigo.maxValue = GameManager.instance.GetEnemigo().vidaEne;
-            vidaEnemigo.value = GameManager.instance.GetEnemigo().EnemigoVidaActual();
-            enemiName.text = GameManager.instance.GetEnemigo().nameEne;
-        }
-    }
     public void goMenu()
     {
         SceneManager.LoadScene("menu");
@@ -102,10 +117,12 @@ public class UIManager : MonoBehaviour
     public void ActivarBotones(bool bot)
     {
         botones.SetActive(bot);
-        
-        GameManager.instance.UI.magiaSubmenu.SetActive(false);
-        GameManager.instance.UI.ataque.SetActive(true);
-        GameManager.instance.UI.escapar.SetActive(true);
+
+        magiaSubmenu.SetActive(false);
+        ataque.SetActive(true);
+        escapar.SetActive(true);
+
+
     }
 
     public void SetMenuEstadisticas(bool con)

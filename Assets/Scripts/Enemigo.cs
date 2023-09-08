@@ -74,7 +74,7 @@ public class Enemigo : MonoBehaviour
                 break;
             case "spider":
                 vidaEne = 75;
-                defensaEne = 26;
+                defensaEne = 15;
                 inteligenciaEne = 23;
                 fuerzaEne = 40;
                 speed = 20;
@@ -83,8 +83,8 @@ public class Enemigo : MonoBehaviour
                 enemigoID = 5;
                 break;
             case "scorpion":
-                vidaEne = 113;
-                defensaEne = 33;
+                vidaEne = 80;
+                defensaEne = 25;
                 inteligenciaEne = 27;
                 fuerzaEne = 45;
                 speed = 20;
@@ -93,8 +93,8 @@ public class Enemigo : MonoBehaviour
                 enemigoID = 6;
                 break;
             case "cerberus":
-                vidaEne = 170;
-                defensaEne = 56;
+                vidaEne = 100;
+                defensaEne = 25;
                 inteligenciaEne = 40;
                 fuerzaEne = 25;
                 speed = 40;
@@ -103,9 +103,9 @@ public class Enemigo : MonoBehaviour
                 enemigoID = 7;
                 break;
             case "boss":
-                vidaEne = 256;
-                defensaEne = 57;
-                inteligenciaEne = 100;
+                vidaEne = 150;
+                defensaEne = 10;
+                inteligenciaEne = 50;
                 fuerzaEne = 20;
                 speed = 50;
                 expEne = 1000;
@@ -119,7 +119,6 @@ public class Enemigo : MonoBehaviour
                 break;
         }
         vidaActual = vidaEne;
-        GameManager.instance.ChangeVidaEnemigo();
     }
     public int GetEnemySpeed()
     {
@@ -128,7 +127,6 @@ public class Enemigo : MonoBehaviour
     public bool ChangeVida(float _changeVida)
     {
         vidaActual = vidaActual + _changeVida;
-        GameManager.instance.ChangeVidaEnemigo();
         if (vidaActual > vidaEne)
         {
             vidaActual = vidaEne;

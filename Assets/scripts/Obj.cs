@@ -85,7 +85,7 @@ public class Obj : MonoBehaviour
 
             case "queso":
 
-                factor = vidaFaltante / 10;
+                factor = vidaFaltante / 5;
                 GameManager.instance.GetPlayer().ChangeVida(factor);
                 string textQueso = "Recuperas " + Texto(factor) + " puntos de vida";
                 StartText(textQueso);

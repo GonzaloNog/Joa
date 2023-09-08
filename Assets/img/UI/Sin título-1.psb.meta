@@ -93,7 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Capa 41
+  - name: Capa 48
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -102,9 +102,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 66
+      width: 96
       height: 94
-    spriteID: f9e3ad6b7b5f38d4abad8c2a47028373
+    spriteID: eb7d991268d2fb240a91d83fdd283571
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -114,7 +114,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 31, y: 1}
+    spritePosition: {x: 1, y: 1}
   characterData:
     bones: []
     parts: []
@@ -145,36 +145,16 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: fino
-    spriteName: 
+  - name: Capa 48
+    spriteName: Capa 48
     isGroup: 0
     parentIndex: -1
-    spriteID: 102076260bee9d042802ef65a5321f40
-    layerID: 9
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Capa 41
-    spriteName: Capa 41
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f9e3ad6b7b5f38d4abad8c2a47028373
-    layerID: 72
+    spriteID: eb7d991268d2fb240a91d83fdd283571
+    layerID: 93
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Capa 3
-    spriteName: Capa 3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: bd29b9017d50e284798ac8aff7dc2657
-    layerID: 5
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   generateGOHierarchy: 0

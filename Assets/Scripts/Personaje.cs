@@ -81,7 +81,8 @@ public class Personaje : MonoBehaviour
             level++;
             puntos += 5;
             exp -= nextLevelExp;
-            nextLevelExp = nextLevelExp * 2;
+            nextLevelExp = nextLevelExp +200;
+            GameManager.instance.UI.UpdatePuntosUI();
         }
     }
     public void UsePoints(string estadistica, int cantidad)

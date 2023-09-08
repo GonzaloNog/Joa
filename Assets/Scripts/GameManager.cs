@@ -71,10 +71,6 @@ public class GameManager : MonoBehaviour
     {
         UI.UpdateVidaUI();
     }
-    public void ChangeVidaEnemigo()
-    {
-        UI.UpdateVidaEnemigo();
-    }
     public void MostrarCombate(bool com)
     {
         UI.ActivarCombate(com);
@@ -114,7 +110,7 @@ public class GameManager : MonoBehaviour
     }
     public void WinGame()
     {
-
+        UI.UIWin();
     }
     public void UpdateSound()
     {

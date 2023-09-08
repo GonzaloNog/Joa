@@ -19,6 +19,7 @@ public class MenuEstadisticas : MonoBehaviour
     public void Open()
     {
         SetPlayerEst();
+        this.gameObject.SetActive(!this.gameObject.activeSelf);
     }
     public void UpdateEst(string plus)
     {
@@ -31,11 +32,6 @@ public class MenuEstadisticas : MonoBehaviour
 
     public void SetPlayerEst()
     {
-        Fuerza.text = GameManager.instance.GetPlayer().fuerza.ToString();
-        Vida.text = GameManager.instance.GetPlayer().vidaMaxima.ToString();
-        Inteligencia.text = GameManager.instance.GetPlayer().inteligencia.ToString();
-        Velocidad.text = GameManager.instance.GetPlayer().speed.ToString();
-        Defensa.text = GameManager.instance.GetPlayer().defensa.ToString();
-        Puntos.text = GameManager.instance.GetPlayer().GetPoints().ToString();
+        GameManager.instance.UI.UpdatePuntosUI();
     }
 }
