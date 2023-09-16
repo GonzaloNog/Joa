@@ -13,12 +13,16 @@ public class GameManager : MonoBehaviour
     public FondoAnim fondoanim;
     public spawnOBJ spawn;
     public AudioManager sfx;
+    public GameObject camera;
     public int nivelActual = 1;
     public bool changelevel = true;
     public int finishLevel = 0;
-    private bool mitadDeCamino = false;
-
+    public bool mitadDeCamino = false;
+    public GameObject Pendiente;
     private int level = 0;
+
+    public float mitadDeCaminoTimer;
+    private float i;
     private void Awake()
     {
         if (instance == null)
@@ -27,17 +31,35 @@ public class GameManager : MonoBehaviour
         }
         else
             Destroy(this);
-
-        //DontDestroyOnLoad(this);
+    }
+    private void Update()
+    {
+        if(mitadDeCamino)
+        {
+            i += Time.deltaTime;
+            if (i > mitadDeCaminoTimer)
+            {
+                EndGame(true);
+            }
+            else
+            {
+                UI.mitadObject.gameObject.SetActive(true);
+                UI.UpdateTimerMdC((mitadDeCaminoTimer - i).ToString("0.##"));
+            }
+        }
     }
     public void Start()
     {
         changelevel = true;
-       // GameManager.instance.GetCombate().newCombat();
+        // GameManager.instance.GetCombate().newCombat();
     }
     public Background GetBackground()
     {
         return fondo;
+    }
+    public GameObject GetPendiente()
+    {
+        return Pendiente;
     }
     public Personaje GetPlayer()
     {
@@ -77,6 +99,7 @@ public class GameManager : MonoBehaviour
     }
     public void EndGame(bool com)
     {
+        UI.mitadObject.gameObject.SetActive(false);
         UI.SetEndGame(com);
     }
     public void SetBotonesCombat(bool boot)
@@ -85,11 +108,6 @@ public class GameManager : MonoBehaviour
     }
     public bool NewLevel()
     {
-        if (nivelActual == finishLevel)
-        {
-            mitadDeCamino = true;
-            print("mitadDeCamino = true; "+mitadDeCamino);
-        }
         if (nivelActual == 1 && mitadDeCamino)
             WinGame();
         else if (changelevel)
@@ -110,7 +128,10 @@ public class GameManager : MonoBehaviour
     }
     public void WinGame()
     {
+        UI.mitadObject.gameObject.SetActive(false);
         UI.UIWin();
+        sfx.GetAud().clip = sfx.victoria;
+        sfx.GetAud().Play();
     }
     public void UpdateSound()
     {

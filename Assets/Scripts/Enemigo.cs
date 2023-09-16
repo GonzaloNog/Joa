@@ -15,7 +15,7 @@ public class Enemigo : MonoBehaviour
     private float vidaActual = 0;
     public int speed = 0;
 
-    private int enemigoID = 0;
+    public int enemigoID = 0;
     private bool live = true;
 
     public void EstadisticasEnem(string enemigo)
@@ -23,7 +23,7 @@ public class Enemigo : MonoBehaviour
         switch (enemigo)
         {
             case "slime":
-                vidaEne = 10;
+                vidaEne = 20;
                 defensaEne = 5;
                 inteligenciaEne = 5;
                 fuerzaEne = 10;
@@ -33,40 +33,40 @@ public class Enemigo : MonoBehaviour
                 enemigoID = 0;
                 break;
             case "rat":
-                vidaEne = 15;
+                vidaEne = 35;
                 defensaEne = 7;
                 inteligenciaEne = 7;
-                fuerzaEne = 20;
+                fuerzaEne = 10;
                 speed = 20;
                 expEne = 100;
                 nameEne = "rat";
                 enemigoID = 1;
                 break;
             case "worm":
-                vidaEne = 22;
+                vidaEne = 42;
                 defensaEne = 11;
                 inteligenciaEne = 13;
-                fuerzaEne = 25;
+                fuerzaEne = 15;
                 speed = 25;
                 expEne = 150;
                 nameEne = "worm";
                 enemigoID = 2;
                 break;
             case "boneworm":
-                vidaEne = 34;
+                vidaEne = 44;
                 defensaEne = 16;
                 inteligenciaEne = 15;
-                fuerzaEne = 30;
+                fuerzaEne = 15;
                 speed = 0;
                 expEne = 200;
                 nameEne = "boneworm";
                 enemigoID = 3;
                 break;
             case "wolf":
-                vidaEne = 50;
+                vidaEne = 60;
                 defensaEne = 20;
                 inteligenciaEne = 20;
-                fuerzaEne = 35;
+                fuerzaEne = 25;
                 speed = 30;
                 expEne = 250;
                 nameEne = "wolf";
@@ -76,7 +76,7 @@ public class Enemigo : MonoBehaviour
                 vidaEne = 75;
                 defensaEne = 15;
                 inteligenciaEne = 23;
-                fuerzaEne = 40;
+                fuerzaEne = 20;
                 speed = 20;
                 expEne = 300;
                 nameEne = "spider";
@@ -86,7 +86,7 @@ public class Enemigo : MonoBehaviour
                 vidaEne = 80;
                 defensaEne = 25;
                 inteligenciaEne = 27;
-                fuerzaEne = 45;
+                fuerzaEne = 35;
                 speed = 20;
                 expEne = 350;
                 nameEne = "scorpion";

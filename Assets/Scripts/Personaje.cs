@@ -83,6 +83,7 @@ public class Personaje : MonoBehaviour
             exp -= nextLevelExp;
             nextLevelExp = nextLevelExp +200;
             GameManager.instance.UI.UpdatePuntosUI();
+            GameManager.instance.UI.Notificacion("Subiste de Nivel! Ahora es " + level + "!");
         }
     }
     public void UsePoints(string estadistica, int cantidad)
@@ -103,10 +104,11 @@ public class Personaje : MonoBehaviour
                     defensa = defensa + (cantidad * 10);
                     break;
                 case "inteligencia":
-                    inteligencia = inteligencia + (cantidad * 3);
+                    print("inteligencia");
+                    inteligencia = inteligencia + (cantidad * 10);
                     break;
                 case "fuerza":
-                    fuerza = fuerza + (cantidad * 3);
+                    fuerza = fuerza + (cantidad * 10);
                     break;
                 case "speed":
                     speed = speed + (cantidad * 10);
@@ -122,8 +124,6 @@ public class Personaje : MonoBehaviour
     }
     public float NormalAttack()
     {
-        aud.clip = GameManager.instance.GetAudioManager().GetEfectSound("shoot");
-        aud.Play();
         animacion = 0;
         if(turn)
             StartCoroutine(AnimatorChange(0.867f, false));

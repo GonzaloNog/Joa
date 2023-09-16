@@ -11,6 +11,7 @@ public class Test : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
+            GameManager.instance.sfx.PlayHit();
         }
         if (Input.GetKeyDown(KeyCode.S))
         {

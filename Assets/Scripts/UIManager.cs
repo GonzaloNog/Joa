@@ -11,7 +11,6 @@ public class UIManager : MonoBehaviour
     public Slider vida;
     public TextMeshProUGUI enemiName;
     public TextMeshProUGUI nivelUI;
-    private TextMeshProUGUI textoObjetos;
     public GameObject itemsSubMenu;
     public GameObject magiaSubmenu;
     public GameObject combate;
@@ -22,24 +21,26 @@ public class UIManager : MonoBehaviour
     public GameObject menuEstadisticas;
     public GameObject win;
     public GameObject barra;
-
     public GameObject[] estadisticasNumeros;
+    public GameObject textoNotificacion;
+
+    public TextMeshProUGUI mitadCamino;
+    public GameObject mitadObject;
+
     private void Start()
     {
         UpdateLevelUI();
     }
-    private void Update()
+    public void UpdateTimerMdC(string a)
     {
+        mitadCamino.text = a;
     }
     public void UIWin()
     {
         win.SetActive(!win.activeSelf);
         nivelUI.gameObject.SetActive(!nivelUI.gameObject.activeSelf);
     }
-    private void TextoObjetos()
-    {
-        //textoObjetos.isActiveAndEnabled = false;
-    }
+
     public void UpdatePuntosUI()
     {
         estadisticasNumeros[0].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().vidaMaxima.ToString();
@@ -48,6 +49,10 @@ public class UIManager : MonoBehaviour
         estadisticasNumeros[3].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().speed.ToString();
         estadisticasNumeros[4].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().defensa.ToString();
         estadisticasNumeros[5].GetComponent<TextMeshProUGUI>().text = GameManager.instance.GetPlayer().GetPoints().ToString();
+    }
+    public void Notificacion(string texto)
+    {
+        textoNotificacion.GetComponent<textoNotificacion>().SendText(texto);
     }
     public void ActivarCombate(bool com)
     {
@@ -63,7 +68,7 @@ public class UIManager : MonoBehaviour
         barra.SetActive(true);
     }
     public void ChangeBackgroundRandom()
-    {
+    {   
         int a = Random.Range(0, GameManager.instance.GetBackground().cantBackgrounds());
         GameManager.instance.GetBackground().setIdBackground(a);
         GameManager.instance.GetBackground().CambiarFondo();
@@ -107,6 +112,7 @@ public class UIManager : MonoBehaviour
     }
     public void NewLevel()
     {
+        nivelUI.alpha = 1;
         if (!GameManager.instance.NewLevel())
         {
             int point = Random.Range(0, GameManager.instance.GetSpawnOBJ().points.Length);
