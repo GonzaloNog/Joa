@@ -26,6 +26,7 @@ public class JugadorAnim : MonoBehaviour
     }
     public void UpdateAnim(int animacion)
     {
+        Debug.Log(animacion);
         anim.SetInteger("Animacion", animacion);
         //anim.SetBool("Estado", estado);
     }
