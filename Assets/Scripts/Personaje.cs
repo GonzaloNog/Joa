@@ -16,6 +16,8 @@ public class Personaje : MonoBehaviour
     public bool turn = false;
     public float[] speall;
     int animacion = 0;
+    public int mana;
+    public int manaMax;
 
     /*Estadisticas Buff
     private float vidaMaximaBuff = 0;
@@ -41,13 +43,18 @@ public class Personaje : MonoBehaviour
     void Awake()
     {
         vidaActual = vidaMaxima;
+        manaMax = (int)inteligencia/6;
+        mana = manaMax;
     }
     private void Start()
     {
         GameManager.instance.ChangeVidaPLayer();
         aud = GetComponent<AudioSource>();
     }
-
+    public void UpdateManaMax()
+    {
+        manaMax = (int)inteligencia / 6;
+    }
     public bool ChangeVida(float _changeVida)
     {
         vidaActual = vidaActual + _changeVida;
@@ -83,7 +90,7 @@ public class Personaje : MonoBehaviour
             exp -= nextLevelExp;
             nextLevelExp = nextLevelExp +200;
             GameManager.instance.UI.UpdatePuntosUI();
-            GameManager.instance.UI.Notificacion("Subiste de Nivel! Ahora es " + level + "!");
+            GameManager.instance.UI.Notificacion("Subiste de Nivel!!");
         }
     }
     public void UsePoints(string estadistica, int cantidad)
@@ -104,8 +111,10 @@ public class Personaje : MonoBehaviour
                     defensa = defensa + (cantidad * 10);
                     break;
                 case "inteligencia":
-                    print("inteligencia");
-                    inteligencia = inteligencia + (cantidad * 10);
+                    inteligencia += cantidad * 10;
+                    UpdateManaMax();
+                    mana += 2;
+                    if (mana>manaMax) mana = manaMax;
                     break;
                 case "fuerza":
                     fuerza = fuerza + (cantidad * 10);
@@ -117,9 +126,6 @@ public class Personaje : MonoBehaviour
                     Debug.Log("Estadistica no encontrada");
                     break;
             }
-        }
-        else
-        {
         }
     }
     public float NormalAttack()

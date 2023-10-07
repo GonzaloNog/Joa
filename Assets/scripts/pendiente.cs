@@ -6,30 +6,57 @@ public class pendiente : MonoBehaviour
 {
     public AnimationClip destroyClip;
     public Animator animator;
-    private bool destroy;
+    private bool tembleque;
+    private bool preTimerUI;
     private float i;
+    bool ding = false;
+    
     public void StartPendiente()
     {
     }
     private void OnMouseDown()
     {
-        GameManager.instance.changelevel = true;
-        destroy = true;
-        animator.SetInteger("animID", 1);
-        GameManager.instance.mitadDeCamino = true;
-        GameManager.instance.sfx.GetAud().clip = GameManager.instance.sfx.escape;
-        GameManager.instance.sfx.GetAud().Play();
-        GameManager.instance.camera.GetComponent<cameraScript>().StartAnim();
+        if(!ding)
+        {
+            GameManager.instance.GetAudioManager().PlayDing();
+            ding = true;
+            tembleque = true;
+            GameManager.instance.GetAudioManager().AudioSourceControl(2,false);
+            animator.SetInteger("animID", 1);
+            GameManager.instance.camera.GetComponent<cameraScript>().StartAnim();
+        }
+
     }
     private void Update()
     {   
-        if(destroy)
+        if (tembleque) Tembleque();
+        if (preTimerUI) TimerPreTimerUI();
+    } 
+    private void Tembleque()
+    {
+        i += Time.deltaTime;
+        if (i >= destroyClip.length)
         {
-            i += Time.deltaTime;
-            if (i >= destroyClip.length)
-            {
-                this.gameObject.SetActive(false);
-            }
+            i = 0;
+            tembleque = false;
+            preTimerUI = true;
         }
+    }
+    private void TimerPreTimerUI()
+    {
+        i += Time.deltaTime;
+        if (i >= (1.5f-destroyClip.length))
+        {
+            i = 0;
+            DestroyFunc();
+        }
+
+    }
+    private void DestroyFunc()
+    {
+        GameManager.instance.mitadDeCamino = true;
+        GameManager.instance.changelevel = true;
+        this.gameObject.SetActive(false);
+        GameManager.instance.GetAudioManager().PlayEscape();
     }
 }

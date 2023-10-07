@@ -1,44 +1,58 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioClip music;
-    public AudioClip shoot;
-    public AudioClip error;
+    //Clips
+    public AudioClip ambiente;
     public AudioClip escape;
     public AudioClip victoria;
+    public AudioClip ding;
     public AudioClip[] battle;
     public AudioClip[] hit;
-
-    private AudioSource aud;
-    public AudioSource hitPlayer;
-
-    private void Start()
-    {
-        aud = GetComponent<AudioSource>();
-        aud.volume = ConfigManager.instance.GetMusicVol();
-    }
-    public void ChangeMusicNPlay()
-    {
-        int ran = Random.Range(0,battle.Length);
-        aud.clip = battle[ran];
-        aud.Play();
-    }
+    //Audio Source 0-musica 1-hitPlayer 2-ambient
+    public AudioSource[] audioSource;
+    //////////
     public void PlayHit()
     {
-        int ran = Random.Range(0,hit.Length);
-        hitPlayer.clip = hit[ran];
-        UpdateSound();
-        hitPlayer.Play();
+        audioSource[1].clip = null;
+        audioSource[1].clip = hit[GetRan(hit.Length)];
+        AudioSourceControl(1,true);
     }
-    public AudioSource GetAud()
+    public void PlayDing()
     {
-        return aud;
+        audioSource[1].clip = ding;
+        AudioSourceControl(1,true);
     }
-    public void UpdateSound()
+    public void PlayEscape()
     {
-        aud.volume = ConfigManager.instance.GetMusicVol();
+        audioSource[0].clip = escape;
+        AudioSourceControl(0,true);
+    }
+    public void PlayBattleMusic()
+    {
+        audioSource[0].clip = null;
+        audioSource[0].clip = battle[GetRan(battle.Length)];
+        AudioSourceControl(0,true);
+    }
+    public void AudioSourceControl(int Id, bool value)
+    {
+        switch (value)
+        {
+            case true:
+                audioSource[Id].Play();
+                break;
+            case false:
+                audioSource[Id].Pause();
+                break;
+        }
+    }
+    public int GetRan(int a)
+    {
+        int ranInt;
+        ranInt = Random.Range(0, a);
+        return ranInt;
     }
 }

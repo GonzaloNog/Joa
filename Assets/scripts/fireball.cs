@@ -14,19 +14,16 @@ public class fireball : MonoBehaviour
     }
     public void Fireball()
     {
-        Debug.Log("E1");
         anim.SetBool("fire",true);
         StartCoroutine(Wait(0.1f,"fire"));
     }
     public void Ice()
     {
-        Debug.Log("E2");
         anim.SetBool("ice", true);
         StartCoroutine(Wait(0.1f,"ice"));
     }
     public void Light()
     {
-        Debug.Log("E3");
         anim.SetBool("light", true);
         StartCoroutine(Wait(0.1f, "light"));
     }

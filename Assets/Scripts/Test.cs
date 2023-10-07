@@ -11,11 +11,11 @@ public class Test : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            GameManager.instance.sfx.PlayHit();
+            GameManager.instance.GetPlayer().ChangeExp(GameManager.instance.GetPlayer().nextLevelExp);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            GameManager.instance.GetSpawnOBJ().newSpawn(0,0);
+            GameManager.instance.GetAudioManager().PlayDing();
         }
         if (Input.GetKeyDown(KeyCode.D))
         {

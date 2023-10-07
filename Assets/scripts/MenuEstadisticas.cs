@@ -21,17 +21,13 @@ public class MenuEstadisticas : MonoBehaviour
         SetPlayerEst();
         this.gameObject.SetActive(!this.gameObject.activeSelf);
     }
-    public void Print(string a)
-    {
-        print(a);
-    }
+
     public void UpdateEst(string plus)
     {
         if(GameManager.instance.GetPlayer().GetPoints() > 0)
         {
             GameManager.instance.GetPlayer().UsePoints(plus, 1);
             SetPlayerEst();
-            print(plus);
         }
     }
 

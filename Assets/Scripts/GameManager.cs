@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public spawnOBJ spawn;
     public AudioManager sfx;
     public GameObject camera;
+    public ConfigManager config;
     public int nivelActual = 1;
     public bool changelevel = true;
     public int finishLevel = 0;
@@ -56,6 +57,10 @@ public class GameManager : MonoBehaviour
     public Background GetBackground()
     {
         return fondo;
+    }
+    public ConfigManager GetConfigManager()
+    {
+        return config;
     }
     public GameObject GetPendiente()
     {
@@ -118,7 +123,6 @@ public class GameManager : MonoBehaviour
             else
             {
                 nivelActual--;
-                print("nivelActual--;");
             }
             changelevel = false;
             comb.newCombat();
@@ -128,13 +132,9 @@ public class GameManager : MonoBehaviour
     }
     public void WinGame()
     {
-        UI.mitadObject.gameObject.SetActive(false);
+        for (int i = 0; i<sfx.audioSource.Length; i++)
+            sfx.audioSource[i].Pause();
         UI.UIWin();
-        sfx.GetAud().clip = sfx.victoria;
-        sfx.GetAud().Play();
-    }
-    public void UpdateSound()
-    {
-        sfx.UpdateSound();
     }
 }
+ 

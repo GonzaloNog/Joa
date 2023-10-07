@@ -47,12 +47,20 @@ public class Obj : MonoBehaviour
     }
     public void OpenOBJ()
     {
-        float vidaActual_ = GameManager.instance.GetPlayer().vidaActual;
-        float vidaMaxima_ = GameManager.instance.GetPlayer().vidaMaxima;
+        Personaje jugador = GameManager.instance.GetPlayer();
+
+        float vidaActual_ = jugador.vidaActual;
+        float vidaMaxima_ = jugador.vidaMaxima;
 
         float vidaFaltante = vidaMaxima_-vidaActual_;
+        
+        float mana_ = jugador.mana;
+        float manaMax_ = jugador.manaMax;
+
+        float manaFaltante = manaMax_ - mana_;
 
         float factor;
+        float factorMana;
 
 
         switch (nameOBJ)
@@ -62,32 +70,35 @@ public class Obj : MonoBehaviour
                 if (randomcofre < 0.5f)
                 {
                     factor = -(vidaActual_ / 3);
-                    GameManager.instance.GetPlayer().ChangeVida(factor);
-                    string textMalo = "Perdes " + Texto(factor) + " de vida";
+                    jugador.ChangeVida(factor);
+                    string textMalo = "Perdes bastante vida";
                     StartText(textMalo);
                 }
                 if (randomcofre > 0.5f)
                 {
                     factor = (vidaFaltante / 1.5f);
-                    GameManager.instance.GetPlayer().ChangeVida(factor);
-                    string textBueno = "Recuperas " + Texto(factor) + " puntos de vida";
+                    factorMana = manaFaltante / 1.5f;
+                    jugador.ChangeVida(factor);
+                    jugador.mana += (int)factorMana;
+                    string textBueno = "Recuperas mucha vida";
                     StartText(textBueno);
                 }
                 break;
 
             case "libro":
 
-                factor = GameManager.instance.GetPlayer().nextLevelExp;
-                GameManager.instance.GetPlayer().ChangeExp((int)factor);
-                string textLibro = "Ganas " + Texto(factor) + " puntos de experiencia";
+                factor = jugador.nextLevelExp/1.3f;
+                jugador.ChangeExp((int)factor);
+                string textLibro = "Ganaste experiencia";
                 StartText(textLibro);
                 break;
 
             case "queso":
-
+                factorMana = manaFaltante / 5;
                 factor = vidaFaltante / 5;
-                GameManager.instance.GetPlayer().ChangeVida(factor);
-                string textQueso = "Recuperas " + Texto(factor) + " puntos de vida";
+                jugador.ChangeVida(factor);
+                jugador.mana += (int)factorMana;
+                string textQueso = "Recuperaste un poco de vida";
                 StartText(textQueso);
                 break;
         }
