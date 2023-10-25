@@ -62,19 +62,16 @@ public class JugadorAnim : MonoBehaviour
     }
     public void PlayHit(string a)
     {
-        print("JugadorAnim.cs: PlayHit()");
         GameManager.instance.GetAudioManager().PlayHit();
         switch(a)
         {
             //GolpeRecibido
             case "j":
-            print("ultimoDañoE_:" + ultimoDañoE_);
             dañoNumerosEne.text = ultimoDañoE_.ToString();
             dañoNumerosJug.alpha = 1;
             break;
             //Ataque
             case "e":
-            print("ultimoDañoJ_:" + ultimoDañoJ_);
             dañoNumerosJug.text = ultimoDañoJ_.ToString();
             dañoNumerosEne.alpha = 1;
             break;

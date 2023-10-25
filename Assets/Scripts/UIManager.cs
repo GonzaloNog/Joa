@@ -41,21 +41,31 @@ public class UIManager : MonoBehaviour
     public AnimationClip clip;
     public TextMeshProUGUI manaCounter;
     public TextMeshProUGUI cambCamino;
+    public GameObject loading;
+    public GameObject LVLUPHU;
 
     private bool x = true;
     private void Start()
     {
-        UpdateLevelUI();
+        //UpdateLevelUI();
         UpdateSlidersVolumen();
     }
     public void Update()
     {
-        if(this.gameObject.scene == SceneManager.GetSceneByName("nivel1"))
+        if(this.gameObject.scene == SceneManager.GetSceneByName("nivel1")&&GameManager.instance.GetCombate())
         {
+            if (GameManager.instance.GetPlayer().GetPoints()>0)
+                LVLUPHU.SetActive(true);
+            else
+                LVLUPHU.SetActive(false);
             string currMana = GameManager.instance.GetPlayer().mana.ToString();
             string currManaMax = GameManager.instance.GetPlayer().manaMax.ToString();
             string textoMana = (currMana+"/"+currManaMax);
             manaCounter.text = textoMana;
+        }
+        if(this.gameObject.scene == SceneManager.GetSceneByName("nivel1"))
+        {
+            UpdateSlidersVolumen();
         }
         //timers
         if (timer)
@@ -80,6 +90,7 @@ public class UIManager : MonoBehaviour
     }
     public void PlayGame()
     {
+        loading.SetActive(true);
         player.GetComponent<Animator>().SetBool("levantarse", true);
         timer = true;
     }
@@ -221,11 +232,9 @@ public class UIManager : MonoBehaviour
     }
     public void NewLevel()
     {
-        print("newLevel");
         int point = Random.Range(0, GameManager.instance.GetSpawnOBJ().points.Length);
         int obj = Random.Range(0, GameManager.instance.GetSpawnOBJ().prefads.Length);
-        nivelUI.alpha = 1;
-        GameManager.instance.GetSpawnOBJ().newSpawn(point, obj);
+        //nivelUI.alpha = 1;
         if(GameManager.instance.changelevel)
         {
             GameManager.instance.NewLevel();
@@ -235,12 +244,9 @@ public class UIManager : MonoBehaviour
     public void ActivarBotones(bool bot)
     {
         botones.SetActive(bot);
-
         magiaSubmenu.SetActive(false);
         ataque.SetActive(true);
         escapar.SetActive(true);
-
-
     }
     public void SetMenuEstadisticas(bool con)
     {

@@ -126,7 +126,7 @@ public class GameManager : MonoBehaviour
             }
             changelevel = false;
             comb.newCombat();
-            UI.UpdateLevelUI();
+            //UI.UpdateLevelUI();
         }
         return changelevel;
     }
