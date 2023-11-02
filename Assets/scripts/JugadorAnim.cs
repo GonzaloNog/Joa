@@ -80,6 +80,14 @@ public class JugadorAnim : MonoBehaviour
         }
         StartAnim(a);
     }  
+    public void ResetAnimNumeros()
+    {
+        animNumerosJ = dañoNumerosJug.GetComponent<Animator>();
+        ultimoDañoE_ = 0;
+        ultimoDañoJ_ = 0;
+        animNumerosJ.SetBool("a",false);
+        animNumerosE.SetBool("a",false);
+    }
     private void StartAnim(string a)
     {
         switch(a)

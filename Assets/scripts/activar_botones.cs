@@ -1,5 +1,5 @@
 using Unity.VisualScripting;
-using UnityEditor;
+
 using UnityEngine;
 
 public class activar_botones : MonoBehaviour
